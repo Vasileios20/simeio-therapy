@@ -9,4 +9,22 @@
 body {
     font-family: Manrope,sans-serif;
     font-weight: 300;
+    color: #4dc1c0;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #5f539d;
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    height: 150px;
 }
