@@ -188,3 +188,25 @@ h2 {
 #image-right-container-bg {
     background-color: #4dc1c0;
 }
+
+/* footer*/
+
+footer{
+    height: 150px;
+    background-color: #3f3f3f;
+    color: #fafafa;
+}
+
+footer a {
+    color: #fafafa;
+}
+
+#social {
+    text-align: center;
+   
+}
+
+#social li {
+    display: inline;
+    margin: 0 50px; 
+}
