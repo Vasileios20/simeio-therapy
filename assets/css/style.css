@@ -12,6 +12,13 @@ body {
     color: #4dc1c0;
 }
 
+header {
+    height: 150px;
+    width: 100%;
+    background-color: #4dc1c0;
+    padding-bottom: 5px;
+}
+
 /* headings and logo */
 
 h1,
@@ -19,7 +26,7 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #5f539d;
+    color: #fafafa;
 }
 
 #logo {
@@ -34,13 +41,13 @@ h2 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 3px;   
+    letter-spacing: 3px;
     float: right;
     padding-right: 150px;
-    
 }
 
-#menu, #logo  {
+#menu,
+#logo {
     line-height: 150px;
 }
 
@@ -48,11 +55,12 @@ h2 {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+    font-weight: 800;
 }
 
 #menu a {
     text-decoration: none;
-    color: #5f539d;   
+    color: #5f539d;
 }
 
 #menu a:hover {
@@ -63,30 +71,38 @@ h2 {
     border-bottom: 1px solid #3f3f3f;
 }
 
-#bg-header {
-    height: 150px;
-    width: 100%;
-    background-color: #4dc1c0;
-}
 
 /* image left and about-us section */
 
+.main-bg {
+    background-color: #5d3c96;
+    position: absolute;
+    height: 700px;
+}
+
 #image-left {
+    float: left;
+    width: 33%;
+}
+
+#image-left-container {
     height: 400px;
     width: 600px;
+    border-radius: 0 30%;
     background: #4dc1c0 url(../images/image-left.jpg) no-repeat;
-    float: left;
-    margin-right: 10px;
+    margin: 130px 0 0 33%;
 }
 
-/* .about-us p {
+#right-about {
     color: #4dc1c0;
-    margin: 100px 300px 0 0;
-    height: auto;
-    width: 600px;
-    float: right ;
+    width: 33%;
+    float: right;
+    margin: 150px 11%;
+    font-size: 150%;
+    text-align: center;
 }
 
-#image-left, #about-us {
-    line-height: auto;
-} */
+#right-about h3 {
+    font-size: 200%;
+    margin-bottom: 30px;
+}
