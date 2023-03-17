@@ -17,7 +17,6 @@ header {
     width: 100%;
     background-color: #4dc1c0;
     padding-bottom: 5px;
-    position: scroll;
 }
 
 /* headings and logo */
@@ -77,7 +76,7 @@ h2 {
 
 .main-bg {
     background-color: #5d3c96;
-    height: 700px;
+    height: 800px;
 }
 
 #image-left {
@@ -90,30 +89,44 @@ h2 {
     width: 600px;
     border-radius: 0 30%;
     background: #4dc1c0 url(../images/image-left.jpg) no-repeat;
-    margin: 130px 0 0 33%;
+    margin: 200px 0 0 33%;
 }
 
 #right-about {
+    height: 200px;
     color: #4dc1c0;
     width: 33%;
     float: right;
-    margin: 150px 11%;
+    padding: 200px 11%;
     font-size: 150%;
     text-align: center;
 }
 
 #right-about h3 {
+    height: 100px;
     font-size: 110%;
-    margin-bottom: 30px;
     text-align: center;
+    padding-top: 10px;
 }
+
+#right-about p {
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 /* services */
 
 #services {
     background-color: #4dc1c0;
     width: 100%;
-    height: 600px;
+    height: 700px;
+}
+
+#services h2 {
+    width: max-content;
+    padding-left: 45%;
 }
 
 #services-left {
@@ -151,12 +164,12 @@ h2 {
     text-align: center;
 }
 
-#services-left-link {
+.services-left-link {
     margin-top: 50px;
     padding-top: 10px;
 }
 
-#services-right-link {
+.services-right-link {
     margin-top: 50px;
     padding-top: 10px;
 }
@@ -164,7 +177,10 @@ h2 {
 #services a {
     color: #fafafa;
     text-decoration: none;
+}
 
+#services a:hover {
+    color: #4d54e2
 }
 
 
@@ -191,22 +207,50 @@ h2 {
 
 /* footer*/
 
-footer{
-    height: 150px;
+footer {
+    height: 300px;
     background-color: #3f3f3f;
     color: #fafafa;
+
 }
 
 footer a {
     color: #fafafa;
+
 }
 
 #social {
     text-align: center;
-   
+    margin: 150px 0 0 50px;
+    float: left;
+    font-size: 150%;
+
 }
 
 #social li {
     display: inline;
-    margin: 0 50px; 
+    padding: 50px 20px;
+    margin-right: 100px;
+
+}
+
+iframe {
+    float: right;
+    padding: 50px 50px 0 0;
+
+}
+
+#address {
+    padding: 50px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+#address h3 {
+    padding-top: 15px;
+
+}
+
+#address p {
+    margin-top: 15px;
 }
