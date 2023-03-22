@@ -75,13 +75,16 @@
     /* image left and about-us section */
 
     .main-bg {
-        background-color: #5d3c96;
+        /* background-color: #5d3c96; */
         height: 800px;
     }
 
     #image-left {
         float: left;
-        width: 33%;
+        width: 50%;
+        margin: 200px 0 0 100px;
+        box-sizing: border-box;
+        position: absolute;
     }
 
     #image-left-container {
@@ -89,17 +92,18 @@
         width: 600px;
         border-radius: 0 30%;
         background: #4dc1c0 url(../images/image-left.jpg) no-repeat;
-        margin: 200px 0 0 33%;
+        
     }
 
     #right-about {
         height: 200px;
         color: #4dc1c0;
-        width: 33%;
+        width: 50%;
         float: right;
-        padding: 200px 11%;
+        margin: 200px 50px 0 0;
         font-size: 150%;
         text-align: center;
+        box-sizing: border-box;
     }
 
     #right-about h3 {
