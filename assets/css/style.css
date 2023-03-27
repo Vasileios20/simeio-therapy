@@ -218,3 +218,31 @@ footer a {
 #address p {
     margin-top: 15px;
 }
+
+/* Our team section*/
+
+.our-team-container {
+    color: #4dc1c0;
+    display: flex;
+    margin: 50px 0;
+    
+    flex-direction: column;
+}
+
+.our-team-container h2 {
+    margin: auto;
+    color: #5d3c96;
+    font-size: 200%;
+    text-align: center;
+}
+
+.our-team-container h3 {
+    color: #5d3c96;
+    text-align: center;
+}
+
+.our-team {
+    display: flex;
+    text-align: justify;
+}
+
