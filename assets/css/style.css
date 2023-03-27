@@ -99,91 +99,59 @@
 
     /* services */
 
-    #services {
-        background-color: #4dc1c0;
+    .services-container {
+        color: #4dc1c0;
+        display: flex;
+        margin: 50px 0;
+        text-align: justify;
+    }
+    
+    /* .services-left {
+        order: 1;
+        flex-basis: 25%;
+        box-sizing: border-box;
+        text-align: justify;
+        margin: auto;
+    } */
+    
+    #services-left-1, #our-team-1 {
+        margin: 0 15px;
+        flex-basis: 25%;
+        order: 1;
+    }
+    
+    #services-left-2, .our-team-2 {
+        margin: 0 15px;
+        flex-basis: 25%;
+        order: 3;
+    }
+    
+    .services-image {
+        order: 2;
+        margin: 10px 20px;
+    }
+    
+    
+    .services-image img {
         width: 100%;
-        height: 700px;
+        height: auto;
+        border-radius: 0 30%;
+    
     }
-
-    #services h2 {
-        width: max-content;
-        padding-left: 45%;
+    
+    
+    #services-right-1, .our-team-3 {
+        margin: 0 15px;
+        flex-basis: 25%;
+        order: 1;
     }
-
-    #services-left {
-        padding: 175px 0;
-        color: #fafafa;
-        float: left;
-        width: 33%;
-
-    }
-
-    #services-right {
-        padding: 175px 0;
-        color: #fafafa;
-        float: right;
-        width: 33%;
-    }
-
-    #services-left div {
-        /* height: 50px;
-        border-style: outset;
-        border-radius: 0 20% 0 20%;
-        box-sizing: border-box; */
-        border-color: #5d3c96;
-        background-color: rgba(93, 60, 150, 0.4);
-        text-align: center;
-    }
-
-    #services-right div {
-        /* height: 50px;
-        border-style: outset;
-        border-radius: 20% 0 20% 0;
-        box-sizing: border-box; */
-        border-color: #5d3c96;
-        background-color: rgba(93, 60, 150, 0.4);
-        text-align: center;
-    }
-
-    .services-left-link {
-        /* margin-top: 50px; */
-        padding-top: 10px;
-    }
-
-    .services-right-link {
-        /* margin-top: 50px; */
-        padding-top: 10px;
-    }
-
-    #services a {
-        color: #fafafa;
-        text-decoration: none;
-    }
-
-    #services a:hover {
-        color: #4d54e2
-    }
-
-
-    /* Services Image  */
-
-    #image-center {
-        width: 600px;
-        margin: 0 auto;
-        padding-top: 175px;
-    }
-
-    #image-center-container {
-        height: 400px;
-        width: 600px;
-        border-radius: 20% 25% 0 25%;
-        background: #4dc1c0 url(../images/image-center.jpg) no-repeat;
-
-
-    }
-
-    #image-center-container-bg {
-        background-color: #4dc1c0;
+    
+    
+    
+    #services-right-2, .our-team-4 {
+        flex-basis: 25%;
+        order: 3;
+        margin: 0 15px;
     }
 
     /* footer*/
