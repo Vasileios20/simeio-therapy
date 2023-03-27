@@ -200,10 +200,6 @@
     justify-content: center;
 }
 
-.form-container {
-    
-}
-
 form {
     display: flex;
     flex-direction: column; 
@@ -221,14 +217,6 @@ form {
     line-height: 1.8;
 }
 
-.subject {
-
-}
-
-.comments {
-    width: 40vw;
-    height: 150px;
-}
 
     /* footer*/
 
