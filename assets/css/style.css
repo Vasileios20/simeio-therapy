@@ -57,47 +57,43 @@
 
     .main-bg {
         /* background-color: #5d3c96; */
-        height: 800px;
+        text-align: center;
+        display: flex;
+        margin: 50px auto;
     }
-
-    #image-left {
-        float: left;
-        width: 50%;
-        margin: 200px 0 0 100px;
-        box-sizing: border-box;
-        position: absolute;
-    }
-
-    #image-left-container {
-        height: 400px;
-        width: 600px;
+    
+    .image-left {
+        flex: 1;
         border-radius: 0 30%;
-        background: #4dc1c0 url(../images/image-left.jpg) no-repeat;
-
+        margin: 10px 20px;
     }
-
-    #right-about {
-        height: 200px;
+    
+    .image-left img {
+        width: 100%;
+        height: auto;
+        border-radius: 0 30%;
+        margin: auto;
+    }
+    
+    .right-about {
+    
         color: #4dc1c0;
-        width: 50%;
-        float: right;
-        margin: 200px 50px 0 0;
+        flex: 2;
+        margin: auto 30px;
         font-size: 150%;
         text-align: center;
         box-sizing: border-box;
     }
-
-    #right-about h3 {
-        height: 100px;
-        font-size: 110%;
-        text-align: center;
-        padding-top: 10px;
+    
+    .right-about p {
+        text-align: justify;
+        margin-top: 10px;
     }
-
-    #right-about p {
-        height: 100px;
-        text-align: center;
-        margin-top: 20px;
+    
+    hr {
+        border-top: 1px solid #5d3c96;
+        width: 100%;
+        margin: 0 auto;
     }
 
 
