@@ -246,3 +246,52 @@ footer a {
     text-align: justify;
 }
 
+@media screen and (max-width: 800px) {
+
+    header {
+        flex-direction: column;
+
+    }
+
+    .our-team {
+        flex-direction: column;
+    }
+
+    .main-bg {
+        flex-direction: column;
+    }
+
+    .image-left {
+        padding: 0 5px;
+
+    }
+
+    #image-left-container {
+        width: 100%;
+        aspect-ratio: auto 16/9;
+    }
+
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .services-container {
+        flex-direction: column;
+    }
+
+    footer .social li {
+        margin: 0 7px;
+    }
+
+    iframe {
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    #address {
+        margin: 10px 25px;
+    }
+}
