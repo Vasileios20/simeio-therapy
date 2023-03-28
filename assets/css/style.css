@@ -42,7 +42,7 @@
 
     .menu {
         list-style: none;
-        
+
     }
 
     .menu li {
@@ -213,6 +213,16 @@
     } */
 
     .form-container-outer {
+        background: url() no-repeat center center;
+        background-color: rgba(79, 196, 207, 0.7);
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        
+    }
+
+    .form-container-bg {
+        
         display: flex;
         justify-content: center;
     }
@@ -221,6 +231,7 @@
         display: flex;
         justify-content: center;
         width: 80%;
+        
     }
 
     .form-container {
@@ -229,7 +240,7 @@
         flex-direction: column;
         color: #3f3f3f;
         margin: 10px 0;
-        background-color: #c9c9c9;
+        background-color: rgba(229, 231, 233, 0.7);
         align-items: center;
     }
 
