@@ -37,8 +37,7 @@
     .logo {
         width: 150px;
         height: 150px;
-
-
+        margin-top: 10px;
     }
 
     .menu {
@@ -49,7 +48,6 @@
     .menu li {
         display: inline-block;
         padding: 0 50px;
-
     }
 
     .menu a {
@@ -169,7 +167,7 @@
     /* Our team section*/
 
     .our-team-container {
-        
+
         display: flex;
         margin: 50px 15px;
         flex-direction: column;
@@ -363,11 +361,6 @@
 
         .image-left {
             padding: 0 5px;
-        }
-
-        #image-left-container {
-            width: 100%;
-            aspect-ratio: auto 16/9;
         }
 
         .menu li {
