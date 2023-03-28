@@ -328,7 +328,7 @@
 
 @media screen and (max-width: 800px) {
 
-     .our-team, .main-bg {
+     .our-team, .main-bg, .services {
         flex-direction: column;
     }
 
@@ -347,10 +347,6 @@
 
     .menu li {
         display: inline-block;    
-    }
-
-    .services-container {
-        flex-direction: column;
     }
 
     footer .social li {
