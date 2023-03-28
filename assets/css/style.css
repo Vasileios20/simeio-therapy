@@ -43,7 +43,7 @@
 
     .menu {
         list-style: none;
-
+        
     }
 
     .menu li {
@@ -68,7 +68,7 @@
         text-align: center;
         display: flex;
         margin: 50px auto;
-
+        color: #4fc4cf
     }
 
     .image-left {
@@ -110,6 +110,7 @@
         display: flex;
         margin: 50px 15px;
         flex-direction: column;
+        color: #4fc4cf
     }
 
     .services {
@@ -168,7 +169,7 @@
     /* Our team section*/
 
     .our-team-container {
-
+        
         display: flex;
         margin: 50px 15px;
         flex-direction: column;
@@ -190,6 +191,7 @@
         text-align: justify;
         justify-content: space-between;
         flex-direction: column;
+        color: #4fc4cf
     }
 
     /* .our-team-1 {
