@@ -153,7 +153,7 @@
     .our-team-container {
         color: #4dc1c0;
         display: flex;
-        margin: 50px 0;
+        margin: 50px 15px;
         flex-direction: column;
     }
 
@@ -173,27 +173,28 @@
         display: flex;
         text-align: justify;
         justify-content: space-between;
+        flex-direction: column;
     }
 
-    .our-team-1 {
-        margin: 0 15px;
+    /* .our-team-1 {
+        
         flex-basis: 25%;
     }
 
     .our-team-2 {
-        margin: 0 0 0 15px;
+        
         flex-basis: 25%;
     }
 
     .our-team-3 {
-        margin: 0 0 0 15px;
+        
         flex-basis: 25%;
     }
 
     .our-team-4 {
-        margin: 0 15px;
+        
         flex-basis: 25%;
-    }
+    } */
 
     .form-container-outer {
         display: flex;
@@ -320,10 +321,6 @@
         font-size: 80%;
     }
 
-    .our-team-2, .our-team-3 {
-        margin-right: 15px;
-    }
-
     .image-left {
         padding: 0 5px;
     }
@@ -342,7 +339,7 @@
     }
 
     footer .social li {
-        margin: 0 7px;
+        margin: 10px 7px 0 7px;
     }
 
     iframe {
