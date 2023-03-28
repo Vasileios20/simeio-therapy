@@ -197,27 +197,22 @@
 
 .form-container-outer {
     display: flex;
-    justify-content: center;
-    border: 2px solid #e71414;
-    
+    justify-content: center;    
 }
 
 .form-container-mid {
     display: flex;
     justify-content: center;
-    border: 2px solid #1bac16;
-    width: 60%;
-    background-color: #b8b5bd;
-    
+    width: 80%;
 }
 
 .form-container {
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;     
     color: #fafafa;
-    border: 2px solid #96723c;
-    background-color: #55be93;
+    margin: 10px 0;
+    background-color: #b8b5bd;
     align-items: center;
 }
 
@@ -353,8 +348,12 @@ footer a {
         margin: 10px 25px;
     }
 
+    .form-container {
+        width: 100%;
+        margin: 0;
+    }
+
     .form-container-mid {
-        
         width: 100%;
     }
 }
