@@ -168,7 +168,7 @@
     /* Our team section*/
 
     .our-team-container {
-        
+
         display: flex;
         margin: 50px 15px;
         flex-direction: column;
@@ -240,7 +240,7 @@
 
     .required-field-b {
         font-size: small;
-    } 
+    }
 
     .required-field {
         color: #f74242;
@@ -256,8 +256,8 @@
     }
 
     .text-input {
-
-        border: 1px solid #5d3c96;
+        border-radius: 5px;
+        border: 2px inset #5d3c96;
         line-height: 2;
 
     }
@@ -266,6 +266,16 @@
         margin-bottom: 20px;
     }
 
+    .join-button {
+        margin-top: 10px;
+        border-radius: 5px;
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #4fc4cf;
+        color: #fafafa;
+        display: block;
+    }
 
     /* footer*/
 
@@ -316,7 +326,7 @@
         text-align: left;
         letter-spacing: 2px;
         order: 2;
-        
+
     }
 
     #address h3 {
@@ -369,7 +379,7 @@
         iframe {
             width: 100%;
             margin-left: 25px;
-            
+
         }
 
         #address {
