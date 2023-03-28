@@ -111,23 +111,25 @@
         text-align: justify;
     }
 
-
+    .services-container p {
+        margin-top: 15px;
+    }
 
     .services-left-1 {
-        margin: 0 15px;
+        margin: 0 15px auto 15px;
         flex: 1;
         order: 1;
     }
 
     .services-left-2 {
-        margin: auto 15px 0 0;
+        margin: auto 15px 15px 15px;
         flex: 1;
         order: 3;
     }
 
     .services-image {
         order: 2;
-        margin: 10px 20px;
+        margin: 20px 15px;
     }
 
 
@@ -139,7 +141,7 @@
 
 
     #services-right-1 {
-        margin: 0 15px;
+        margin: 0 15px auto 15px;
         flex: 1;
         order: 1;
     }
@@ -147,7 +149,7 @@
     #services-right-2 {
         flex: 1;
         order: 3;
-        margin: auto 15px 0 0;
+        margin: auto 15px 15px 15px;
     }
 
     /* Our team section*/
