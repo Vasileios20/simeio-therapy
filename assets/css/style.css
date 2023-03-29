@@ -51,7 +51,7 @@
 
     .menu li {
         display: inline-block;
-        padding: 0 50px;
+        padding: 0 30px;
     }
 
     .menu a {
@@ -380,8 +380,13 @@
             padding: 0 5px;
         }
 
+        .menu {
+            letter-spacing: 1px;
+        }
+
         .menu li {
             display: inline-block;
+            
         }
 
         .map-footer {
