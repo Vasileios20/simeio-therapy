@@ -192,7 +192,7 @@
 
     .our-team {
         display: flex;
-        text-align: justify;
+        text-align: left;
         justify-content: space-between;
         flex-direction: column;
         color: #4fc4cf
