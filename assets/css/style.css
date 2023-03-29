@@ -125,12 +125,12 @@ header {
 }
 
 @media (max-width: 800px) {
-    
+
     .active {
         border-bottom: 1px solid #5d3c96;
         margin-bottom: 8px;
     }
-    
+
     .menu-button-container {
         display: flex;
     }
@@ -158,7 +158,7 @@ header {
         border-top: 1px solid #5d3c96;
         height: 2.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        
+
     }
 
     .menu>li {
@@ -180,7 +180,7 @@ header {
         height: 75px;
         margin: 10px 0 0 10px;
     }
-    
+
 
 }
 
@@ -325,34 +325,96 @@ hr {
 
 .our-team {
     display: flex;
-    text-align: left;
-    justify-content: space-between;
-    flex-direction: column;
-    color: #4fc4cf
+    height: 500px;
+    justify-content: space-around;
+    background-color: #4fc4;
+    color: #4fc4cf;
+
 }
 
-/* .our-team-1 {
-        
-        flex-basis: 25%;
-    }
+.our-team-1 {
+    border: 1px solid red;
+    flex-basis: 20%;
 
-    .our-team-2 {
-        
-        flex-basis: 25%;
-    }
+    text-align: center;
+    display: flex;
+    background-color: #4fc4cf;
+    flex-direction: column;
 
-    .our-team-3 {
-        
-        flex-basis: 25%;
-    }
+}
 
-    .our-team-4 {
-        
-        flex-basis: 25%;
-    } */
+.cv-logo {
+    margin-top: auto;
+    border: 1px solid blue;
+    background-color: #4fc;
+
+}
+
+.our-team-inner {
+    border: 1px solid #5d3c96;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 1rem;
+
+}
+
+.our-team p,
+.our-team h3 {
+    padding-bottom: 1rem;
+}
+
+.our-team-inner a {
+    text-decoration: none;
+}
+
+.our-team-1 {
+    border: 1px solid red;
+    flex-basis: 20%;
+
+    text-align: center;
+    display: flex;
+    background-color: #4fc4cf;
+    flex-direction: column;
+
+}
+
+.our-team-2 {
+    border: 1px solid red;
+    flex-basis: 20%;
+
+    text-align: center;
+    display: flex;
+    background-color: #4fc4cf;
+    flex-direction: column;
+}
+
+.our-team-3 {
+    border: 1px solid red;
+    flex-basis: 20%;
+
+    text-align: center;
+    display: flex;
+    background-color: #4fc4cf;
+    flex-direction: column;
+
+    
+
+}
+
+.our-team-4 {
+    border: 1px solid red;
+    flex-basis: 20%;
+
+    text-align: center;
+    display: flex;
+    background-color: #4fc4cf;
+    flex-direction: column;
+
+}
 
 .form-container-outer {
-    
+
     background-color: rgba(79, 196, 207, 0.7);
     width: 100%;
     overflow: hidden;
