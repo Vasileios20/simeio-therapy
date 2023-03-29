@@ -9,20 +9,23 @@
     body {
         font-family: Manrope, sans-serif;
         font-weight: 400;
-        color: #5d3c96;
+        color: #4fc4cf;
     }
 
     /* headings and logo */
 
-    h1,
-    h2 {
+    h1 {
         font-family: Oswald, sans-serif;
         text-transform: uppercase;
         letter-spacing: 3px;
         color: #fafafa;
     }
 
-    h3 {
+    h3,
+    h2 {
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
         color: #5d3c96;
     }
 
@@ -31,7 +34,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        font-weight: 600;
+        letter-spacing: 2px;
     }
 
     .logo {
@@ -51,8 +55,9 @@
     }
 
     .menu a {
-        color: #fafafa;
+        
         text-decoration: none;
+        font-size: x-large;
     }
 
     .active {
@@ -66,7 +71,7 @@
         text-align: center;
         display: flex;
         margin: 50px auto;
-        color: #4fc4cf
+        
     }
 
     .image-left {
@@ -86,12 +91,13 @@
         flex: 2;
         margin: auto 30px;
         font-size: 150%;
+        font-weight: 500;
         text-align: center;
         box-sizing: border-box;
     }
 
     .right-about p {
-        text-align: justify;
+        text-align: center;
         margin-top: 10px;
     }
 
@@ -108,17 +114,17 @@
         display: flex;
         margin: 50px 15px;
         flex-direction: column;
-        color: #4fc4cf
+        
     }
 
     .services {
         display: flex;
         margin: 50px 0;
-        text-align: justify;
+        text-align: left;
     }
 
     .services-container h2 {
-        color: #5d3c96;
+        
         text-align: center;
         font-size: xx-large;
     }
@@ -174,13 +180,13 @@
     }
 
     .our-team-container h2 {
-        color: #5d3c96;
+        
         font-size: xx-large;
         text-align: center;
     }
 
     .our-team-container h3 {
-        color: #5d3c96;
+        
         text-align: center;
     }
 
@@ -218,11 +224,11 @@
         width: 100%;
         overflow: hidden;
         position: relative;
-        
+
     }
 
     .form-container-bg {
-        
+
         display: flex;
         justify-content: center;
     }
@@ -231,7 +237,7 @@
         display: flex;
         justify-content: center;
         width: 80%;
-        
+
     }
 
     .form-container {
