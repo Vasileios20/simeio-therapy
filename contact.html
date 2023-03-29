@@ -17,27 +17,31 @@
     <!--Logo and navbar with links-->
 
     <header>
-        <a href="index.html">
-            <h1>
-                <img src="assets/images/logo-image.png" alt="Home button" class="logo">
-            </h1>
-        </a>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About Us</a>
-                </li>
-                <li>
-                    <a href="contact.html" class="active">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <a href="index.html">
+                <h1>
+                    <img src="assets/images/logo-image.png" alt="Home button" class="logo">
+                </h1>
+            </a>
+        </div>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li class="active">
+                <a href="contact.html" class="active">Contact Us</a>
+            </li>
+        </ul>
     </header>
-
-    <div class="form-container-outer">
+    
+    <section class="form-container-outer">
         <div class="form-container-bg">
             <div class="form-container-mid">
                 <div class="form-container">
@@ -99,7 +103,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 
@@ -150,7 +154,7 @@
         <!--Font awesome script-->
 
         <script src="https://kit.fontawesome.com/cdf0a3356f.js" crossorigin="anonymous"></script>
-
+        
 </body>
 
 </html>

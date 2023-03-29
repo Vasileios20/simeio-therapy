@@ -17,24 +17,28 @@
     <!--Logo and navbar with links-->
 
     <header>
-        <a href="index.html">
-            <h1>
-                <img src="assets/images/logo-image.png" alt="Home button" class="logo">
-            </h1>
-        </a>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html" class="active">About Us</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <a href="index.html">
+                <h1>
+                    <img src="assets/images/logo-image.png" alt="Home button" class="logo">
+                </h1>
+            </a>
+        </div>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="active">
+                <a href="about-us.html" class="active">About Us</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
     </header>
 
     <!-- About us and Image-->

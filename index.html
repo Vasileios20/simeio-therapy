@@ -17,24 +17,32 @@
     <!--Logo and navbar with links-->
 
     <header>
-        <a href="index.html">
-            <h1>
-                <img src="assets/images/logo-image.png" alt="Home button" class="logo">
-            </h1>
-        </a>
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About Us</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+
+        <div>
+            <a href="index.html">
+                <h1>
+                    <img src="assets/images/logo-image.png" alt="Home button" class="logo">
+                </h1>
+            </a>
+        </div>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li class="active">
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About Us</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+
+
+
     </header>
 
     <!-- About us and Image-->
@@ -108,22 +116,21 @@
         <div class="services">
             <div id="services-right-1">
                 <h3>Occupational Therapy</h3>
-                <p>Occupational therapy" as a term is derived from the words "work" and "therapy". It could be
-                    defined as therapy through work (activity) but also therapy for work (activity). Occupational
-                    therapy uses purposeful activity as a means of treatment. At the same time, it is concerned,
-                    through it, that the individual is able to engage in all the activities that have meaning for
-                    him adequately. It is a science of rehabilitation where in a holistic way it aims at the
-                    autonomy and functionality of the individual. Pediatric occupational therapy
-                    The pediatric field is one of the main fields of occupation of occupational therapists in
-                    Greece. Play is a very important activity for children and is used therapeutically in
-                    occupational therapy. The most important purpose of pediatric occupational therapy is the
-                    successful involvement of children in school activities (such as attendance in the classroom,
-                    recess, reading at home, etc.), in recreational activities (such as playing on the playground,
-                    cycling, team building play, family activities, etc.) and autonomy (food, clothing, personal
-                    hygiene, etc.) according to the typical standards of each age. The above can be achieved either
-                    by improving some skills of the child that are lacking (such as sensory processing,
-                    concentration, gross and fine motor skills, visual-motor coordination, self-confidence,
-                    self-organization, etc.), or by adapting the environment or the activity to level of the child.
+                <p>Occupational therapy could be defined as therapy through work (activity) but also therapy for work
+                    (activity). Occupational therapy uses purposeful activity as a means of treatment. At the same time,
+                    it is concerned, through it, that the individual is able to engage in all the activities that have
+                    meaning for him adequately. It is a science of rehabilitation where in a holistic way it aims at the
+                    autonomy and functionality of the individual. Pediatric occupational therapy The pediatric field is
+                    one of the main fields of occupation of occupational therapists in Greece. Play is a very important
+                    activity for children and is used therapeutically in occupational therapy. The most important
+                    purpose of pediatric occupational therapy is the successful involvement of children in school
+                    activities (such as attendance in the classroom, recess, reading at home, etc.), in recreational
+                    activities (such as playing on the playground, cycling, team building play, family activities, etc.)
+                    and autonomy (food, clothing, personal hygiene, etc.) according to the typical standards of each
+                    age. The above can be achieved either by improving some skills of the child that are lacking (such
+                    as sensory processing, concentration, gross and fine motor skills, visual-motor coordination,
+                    self-confidence, self-organization, etc.), or by adapting the environment or the activity to level
+                    of the child.
                 </p>
             </div>
 
@@ -204,9 +211,9 @@
             <h3>COPYRIGHT</h3>
         </div>
 
-    <!--Font awesome script-->
+        <!--Font awesome script-->
 
-    <script src="https://kit.fontawesome.com/cdf0a3356f.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/cdf0a3356f.js" crossorigin="anonymous"></script>
 
 </body>
 
