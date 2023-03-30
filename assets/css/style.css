@@ -469,7 +469,7 @@ hr {
 .submit-form-outer {
     display: flex;
     flex-direction: column;
-    height: 546px;
+    height: 540px;
 }
 
 .submit-form {
@@ -478,6 +478,10 @@ hr {
 
 .return-home {
     margin: 100px auto;
+}
+
+.return-home div {
+    margin-top: 10px;
 }
 
 /* CV section*/
