@@ -27,6 +27,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #5d3c96;
+    text-align: center;
 }
 
 
@@ -257,8 +258,6 @@ hr {
 }
 
 .services-container h2 {
-
-    text-align: center;
     font-size: xx-large;
 }
 
@@ -310,18 +309,12 @@ hr {
     display: flex;
     padding-bottom: 50px;
     flex-direction: column;
-    
 }
 
 .our-team-container h2 {
     margin-top: 20px;
     font-size: xx-large;
-    text-align: center;
     padding-bottom: 5px;
-}
-
-.our-team-container h3 {
-    text-align: center;
 }
 
 .our-team-inner {
@@ -339,8 +332,6 @@ hr {
     margin-top: 1.5rem;
     text-align: center;
     align-items: center;
-
-
 }
 
 .our-team-bg {
@@ -394,7 +385,6 @@ hr {
 }
 
 .our-team-4 {
-    
     border: 2px solid #5d3c96;
     border-radius: 0 1.5rem 1.5rem 1.5rem;
     margin-right: auto;
@@ -474,6 +464,22 @@ hr {
     background-color: #4fc4cf;
     color: #fafafa;
     display: block;
+}
+
+/* CV section*/
+
+.cv-outer {
+    display: flex;
+}
+
+.cv {
+    flex: 0.5;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.cv p {
+    padding: 20px 0;
 }
 
 /* footer*/
@@ -572,14 +578,15 @@ footer a {
         margin: auto;
     }
     
+    .cv {
+        flex: 1;
+        margin: 0 15px;
+    }
     
     /* .menu li {
         display: inline-block;
     } */
 
-    .services h3 {
-        text-align: center;
-    }
 
     .map-footer {
         order: 2;
