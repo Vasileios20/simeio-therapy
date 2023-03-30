@@ -334,11 +334,9 @@ hr {
 
 .our-team {
     display: flex;
-    
     flex-direction: column;
-    
     flex-basis: 40%;
-    margin-top: 20px;
+    margin-top: 1.5rem;
     text-align: center;
     align-items: center;
 
@@ -549,7 +547,6 @@ footer a {
 
 @media screen and (max-width: 800px) {
 
-    .our-team,
     .main-bg,
     .services,
     .footer-container {
@@ -564,11 +561,21 @@ footer a {
         padding: 0 5px;
     }
 
+    .our-team-inner {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .our-team-bg-sm {
+        border: 2px solid #5d3c96;
+        border-radius: 1.5rem;
+        margin: auto;
+    }
+    
+    
     /* .menu li {
         display: inline-block;
     } */
-
-    .services {}
 
     .services h3 {
         text-align: center;
