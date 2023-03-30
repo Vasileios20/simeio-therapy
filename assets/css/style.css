@@ -8,8 +8,8 @@
 
 body {
     font-family: Manrope, sans-serif;
-    font-weight: 400;
-    color: #4fc4cf;
+    font-weight: 500;
+    color: rgba(79, 196, 207, 1);
 }
 
 /* headings and logo */
@@ -23,7 +23,7 @@ h1 {
 
 h3,
 h2 {
-    font-family: Oswald, sans-serif;
+    
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #5d3c96;
