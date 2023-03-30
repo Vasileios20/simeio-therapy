@@ -17,6 +17,7 @@
     <!--Logo and navbar with links-->
 
     <header>
+
         <div>
             <a href="index.html">
                 <h1>
@@ -32,76 +33,24 @@
             <li>
                 <a href="index.html">Home</a>
             </li>
-            <li>
+            <li class="active">
                 <a href="about-us.html">About Us</a>
             </li>
-            <li class="active">
-                <a href="contact.html" class="active">Contact Us</a>
+            <li>
+                <a href="contact.html">Contact Us</a>
             </li>
         </ul>
+
+
+
     </header>
-    
-    <section class="form-container-outer">
-        <div class="form-container-bg">
-            <div class="form-container-mid">
-                <div class="form-container">
 
-
-                    <form action="submit-form.html" target="_blank" method="GET" class="signup-form">
-
-                        <div class="form-control form-first">
-                            <label for="fname">First Name:<span class="required-field">*</span></label>
-
-                            <input type="text" id="fname" name="first_name" class="text-input" required>
-
-                        </div>
-                        <div class="form-control">
-                            <label for="lname">Last Name:<span class="required-field">*</span></label>
-
-
-                            <input type="text" id="lname" name="last_name" class="text-input" required>
-
-                        </div>
-                        <div class="form-control">
-                            <label for="email">Email Address:<span class="required-field">*</span></label>
-
-
-                            <input type="email" id="email" name="email_address" class="text-input" required>
-
-                        </div>
-                        <div class="form-control">
-                            <label for="cnumber">Contact Number:<span class="required-field">*</span></label>
-
-
-                            <input type="number" id="cnumber" name="contact_number" class="text-input" required>
-
-                        </div>
-                        <div class="form-control">
-                            <label for="subject">Subject:<span class="required-field">*</span></label>
-
-
-                            <input type="text" id="subject" name="subject_form" class="text-input subject" required>
-
-                        </div>
-                        <div class="form-control">
-                            <label for="commnets">Comments:<span class="required-field">*</span></label>
-
-
-                            <textarea id="comments" cols="20" rows="5" maxlength="500" name="commnents_form"
-                                class="text-input comments" required></textarea>
-
-                        </div>
-                        <div>
-                            <input type="submit" value="Submit" class="join-button">
-                        </div>
-                        <div class="required-field-b">
-                            <p>
-                                <span class="required-field">*</span>Fields required
-                            </p>
-                        </div>
-                    </form>
-                </div>
-            </div>
+    <section class="submit-form-outer">
+        <div class="submit-form">
+            <h3>Thank you, your form has been submited</h3>
+        </div>
+        <div class="return-home">
+            <a href="index.html">Click here to return to home page</a>
         </div>
     </section>
 
@@ -154,7 +103,7 @@
         <!--Font awesome script-->
 
         <script src="https://kit.fontawesome.com/cdf0a3356f.js" crossorigin="anonymous"></script>
-        
+
 </body>
 
 </html>
