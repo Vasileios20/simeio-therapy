@@ -321,7 +321,6 @@ hr {
 }
 
 .our-team-container h3 {
-
     text-align: center;
 }
 
@@ -359,7 +358,7 @@ hr {
 
 .our-team-link {
     border: 1px solid #5d3c96;
-    
+    font-weight: 600;
     margin: auto;
     background-color: #fafafa;
     border-radius: 1rem;
@@ -369,11 +368,13 @@ hr {
 .our-team-inner p,
 .our-team-inner h3 {
     padding-bottom: 1rem;
+    
 }
 
 .our-team-link a {
     text-decoration: none;
     color: #4cb43a;
+    font-weight: 400;
 }
 
 .our-team-1 {
