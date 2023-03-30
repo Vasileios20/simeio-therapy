@@ -551,9 +551,10 @@ footer a {
     text-align: left;
 }
 
-#address h3 {
+#address h3, #address h2 {
     padding-top: 15px;
     color: #fafafa;
+    margin-right: auto;
 }
 
 #address p {
