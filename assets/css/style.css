@@ -48,8 +48,8 @@ header {
     margin: 10px 0 0 10px;
 }
 
-.menu a {
-
+.menu li a {
+    color: #fafafa;
     text-decoration: none;
     font-size: x-large;
 }
@@ -323,24 +323,24 @@ hr {
     text-align: center;
 }
 
-.our-team {
+.our-team-inner {
     display: flex;
-    height: 500px;
     justify-content: space-around;
-    background-color: #4fc4;
+    background-color: green;
     color: #4fc4cf;
-
+    flex-wrap: wrap;
+    
 }
 
-.our-team-1 {
-    border: 1px solid red;
-    flex-basis: 20%;
-
-    text-align: center;
+.our-team {
     display: flex;
     background-color: #4fc4cf;
     flex-direction: column;
-
+    border: 1px solid red;
+    flex-basis: 40%;
+    margin-top: 20px;
+    text-align: center;
+    
 }
 
 .cv-logo {
@@ -350,66 +350,42 @@ hr {
 
 }
 
-.our-team-inner {
+.our-team-link {
     border: 1px solid #5d3c96;
     width: 50%;
     margin: auto;
-    background-color: #fff;
+    background-color: #fafafa;
     border-radius: 1rem;
 
 }
 
-.our-team p,
-.our-team h3 {
+.our-team-inner p,
+.our-team-inner h3 {
     padding-bottom: 1rem;
 }
 
-.our-team-inner a {
+.our-team-link a {
     text-decoration: none;
+    color: #4cb43a;
 }
 
 .our-team-1 {
-    border: 1px solid red;
-    flex-basis: 20%;
-
-    text-align: center;
-    display: flex;
-    background-color: #4fc4cf;
-    flex-direction: column;
+   
 
 }
 
 .our-team-2 {
-    border: 1px solid red;
-    flex-basis: 20%;
-
-    text-align: center;
-    display: flex;
-    background-color: #4fc4cf;
-    flex-direction: column;
-}
+   
 
 .our-team-3 {
-    border: 1px solid red;
-    flex-basis: 20%;
-
-    text-align: center;
-    display: flex;
-    background-color: #4fc4cf;
-    flex-direction: column;
+    
 
     
 
 }
 
 .our-team-4 {
-    border: 1px solid red;
-    flex-basis: 20%;
-
-    text-align: center;
-    display: flex;
-    background-color: #4fc4cf;
-    flex-direction: column;
+    
 
 }
 
