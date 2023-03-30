@@ -470,12 +470,14 @@ hr {
 
 .cv-outer {
     display: flex;
+    
 }
 
 .cv {
-    flex: 0.5;
+    flex: 0.4;
     margin: auto;
     padding-top: 20px;
+    
 }
 
 .cv p {
