@@ -563,7 +563,10 @@ footer a {
 }
 
 .copyright {
-    margin: auto;
+    font-size: small;
+    margin-right: auto;
+    padding-bottom: 3px;
+    padding-left: 5px;
 }
 
 .copyright h3 {
