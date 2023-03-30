@@ -237,7 +237,7 @@ header {
 hr {
     border-top: 1px solid #5d3c96;
     width: 100%;
-    margin: 0 auto;
+    
 }
 
 
@@ -306,16 +306,18 @@ hr {
 /* Our team section*/
 
 .our-team-container {
-
+    background-color: rgba(79, 196, 207, 0.7);
     display: flex;
-    margin: 50px 15px;
+    padding-bottom: 50px;
     flex-direction: column;
+    
 }
 
 .our-team-container h2 {
-
+    margin-top: 20px;
     font-size: xx-large;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 .our-team-container h3 {
@@ -326,33 +328,38 @@ hr {
 .our-team-inner {
     display: flex;
     justify-content: space-around;
-    background-color: green;
-    color: #4fc4cf;
     flex-wrap: wrap;
+    margin: auto;
     
 }
 
 .our-team {
     display: flex;
-    background-color: #4fc4cf;
+    
     flex-direction: column;
-    border: 1px solid red;
+    
     flex-basis: 40%;
     margin-top: 20px;
     text-align: center;
-    
+    align-items: center;
+
+
+}
+
+.our-team-bg {
+    background-color: #4fc4cf;
+    height: 100%;
+    width: 70%;
+    padding: 10px;
 }
 
 .cv-logo {
     margin-top: auto;
-    border: 1px solid blue;
-    background-color: #4fc;
-
 }
 
 .our-team-link {
     border: 1px solid #5d3c96;
-    width: 50%;
+    
     margin: auto;
     background-color: #fafafa;
     border-radius: 1rem;
@@ -370,23 +377,28 @@ hr {
 }
 
 .our-team-1 {
-   
-
+    border: 2px solid #5d3c96;
+    border-radius: 1.5rem 1.5rem 0 1.5rem;
+    margin-left: auto;
 }
 
 .our-team-2 {
-   
+    border: 2px solid #5d3c96;
+    border-radius: 1.5rem 1.5rem 1.5rem 0;
+    margin-right: auto;
+}
 
 .our-team-3 {
-    
-
-    
-
+    border: 2px solid #5d3c96;
+    border-radius: 1.5rem 0 1.5rem 1.5rem;
+    margin-left: auto;
 }
 
 .our-team-4 {
     
-
+    border: 2px solid #5d3c96;
+    border-radius: 0 1.5rem 1.5rem 1.5rem;
+    margin-right: auto;
 }
 
 .form-container-outer {
