@@ -521,7 +521,10 @@ footer a {
     box-sizing: border-box;
     order: 3;
     padding-right: 50px;
+    padding-top: 15px;
 }
+
+
 
 #address {
     margin-left: auto;
@@ -548,9 +551,8 @@ footer a {
 
 .copyright {
     font-size: small;
-    margin-right: auto;
-    padding-bottom: 3px;
-    padding-left: 5px;
+    padding: 0 0 5px 50px;
+   
 }
 
 .copyright h3 {
