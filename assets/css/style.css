@@ -185,22 +185,6 @@ header {
 
 }
 
-
-
-/* .menu {
-    list-style: none;
-
-}
-
-.menu li {
-    display: inline-block;
-    padding: 0 30px;
-} */
-
-
-
-/* image left and about-us section */
-
 .main-bg {
     text-align: center;
     display: flex;
@@ -237,10 +221,8 @@ header {
 
 hr {
     border-top: 1px solid #5d3c96;
-    width: 100%;
-    
+    width: 100%;   
 }
-
 
 /* services */
 
@@ -322,7 +304,6 @@ hr {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
-    
 }
 
 .our-team {
@@ -396,7 +377,6 @@ hr {
     width: 100%;
     overflow: hidden;
     position: relative;
-
 }
 
 .form-container-bg {
@@ -409,7 +389,6 @@ hr {
     display: flex;
     justify-content: center;
     width: 80%;
-
 }
 
 .form-container {
@@ -448,7 +427,6 @@ hr {
     border-radius: 5px;
     border: 2px inset #5d3c96;
     line-height: 2;
-
 }
 
 .signup-form div {
@@ -493,8 +471,7 @@ hr {
 .cv {
     flex: 0.4;
     margin: auto;
-    padding-top: 20px;
-    
+    padding-top: 20px;   
 }
 
 .cv p {
@@ -543,7 +520,6 @@ footer a {
     box-sizing: border-box;
     order: 3;
     padding-right: 50px;
-    padding-left: 10px;
 }
 
 #address {
@@ -553,12 +529,15 @@ footer a {
     order: 2;
     flex-direction: column;
     text-align: left;
+    padding-right: 10px;
+    
 }
 
 #address h3, #address h2 {
     padding-top: 15px;
     color: #fafafa;
     margin-right: auto;
+    text-transform: capitalize;
 }
 
 #address p {
