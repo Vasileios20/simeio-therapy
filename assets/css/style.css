@@ -194,7 +194,6 @@ header {
 
 .image-left {
     flex: 1;
-    border-radius: 0 30%;
     margin: 10px 20px;
 }
 
@@ -202,7 +201,7 @@ header {
     width: 100%;
     height: auto;
     border-radius: 0 30%;
-    margin: auto;
+    
 }
 
 .right-about {
@@ -568,8 +567,10 @@ footer a {
         font-size: 80%;
     }
 
-    .image-left {
-        padding: 0 5px;
+    .services-image {
+        max-width: 300px;
+        margin: auto;
+        padding: 15px 0;
     }
 
     .our-team-inner {
@@ -587,11 +588,6 @@ footer a {
         flex: 1;
         margin: 0 15px;
     }
-    
-    /* .menu li {
-        display: inline-block;
-    } */
-    
 
     .map-footer {
         order: 2;
