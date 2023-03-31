@@ -336,9 +336,14 @@ hr {
 
 }
 
-.our-team-inner p,
 .our-team-inner h3 {
-    padding-bottom: 1rem;
+    padding-top: 5px;
+    
+}
+
+
+.our-team-inner p {
+    padding: 1rem 0;
     
 }
 
