@@ -631,3 +631,12 @@ footer a {
         margin-right: 15px;
     }
 }
+
+@media screen and (max-width:1024px) {
+    
+    .services-image {
+        max-width: 300px;
+        margin: auto;
+        padding: 15px 0;
+    }
+}
