@@ -9,7 +9,7 @@
 body {
     font-family: Manrope, sans-serif;
     font-weight: 500;
-    color: rgba(79, 196, 207, 1);
+    color: #185358;
 }
 
 /* headings and logo */
@@ -33,7 +33,7 @@ h2 {
 
 
 header {
-    background-color: #4fc4cf;
+    background-color: #5d3c96;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -347,7 +347,7 @@ hr {
 
 .our-team-link a {
     text-decoration: none;
-    color: #4cb43a;
+    color: #106800;
     font-weight: 400;
     
 }
