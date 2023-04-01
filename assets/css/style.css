@@ -333,13 +333,10 @@ hr {
     border: 1px solid #5d3c96;
     font-weight: 600;
     margin: auto;
-    background-color: #fafafa;
+    background-color: rgb(215, 227, 230);
     border-radius: 1rem;
     padding: 10px;
 }
-
-
-
 
 .our-team-inner p {
     padding: 10px 0;    
