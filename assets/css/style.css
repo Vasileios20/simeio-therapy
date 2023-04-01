@@ -23,7 +23,7 @@ h1 {
 
 h3,
 h2 {
-    
+
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #5d3c96;
@@ -200,7 +200,7 @@ header {
 .image-left img {
     width: 100%;
     height: auto;
-    border-radius: 0 30%;  
+    border-radius: 0 30%;
 }
 
 .right-about {
@@ -219,7 +219,7 @@ header {
 
 hr {
     border-top: 1px solid #5d3c96;
-    width: 100%;   
+    width: 100%;
 }
 
 /* services */
@@ -239,6 +239,11 @@ hr {
 
 .services-container h2 {
     font-size: xx-large;
+}
+
+.services-top-2 h4 {
+    font-size: large;
+    margin: 10px 0;
 }
 
 .services p {
@@ -288,7 +293,7 @@ hr {
 /* Our team section*/
 
 .our-team-container {
-    
+
     display: flex;
     padding-bottom: 50px;
     flex-direction: column;
@@ -339,14 +344,14 @@ hr {
 }
 
 .our-team-inner p {
-    padding: 10px 0;    
+    padding: 10px 0;
 }
 
 .our-team-link a {
     text-decoration: none;
     color: #106800;
     font-weight: 400;
-    
+
 }
 
 .our-team-1 {
@@ -469,13 +474,13 @@ hr {
 /* CV section*/
 
 .cv-outer {
-    display: flex;    
+    display: flex;
 }
 
 .cv {
     flex: 0.4;
     margin: auto;
-    padding-top: 20px;   
+    padding-top: 20px;
 }
 
 .cv p {
@@ -537,10 +542,11 @@ footer a {
     flex-direction: column;
     text-align: left;
     padding-right: 10px;
-    
+
 }
 
-#address h3, #address h2 {
+#address h3,
+#address h2 {
     padding-top: 15px;
     color: #fafafa;
     margin-right: auto;
@@ -549,13 +555,13 @@ footer a {
 
 #address p {
     margin-top: 15px;
-    
+
 }
 
 .copyright {
     font-size: small;
     padding: 0 0 5px 50px;
-   
+
 }
 
 .copyright h3 {
@@ -574,7 +580,8 @@ footer a {
         font-size: 80%;
     }
 
-    .services-image, .image-left {
+    .services-image,
+    .image-left {
         max-width: 300px;
         margin: auto;
         padding: 15px 0;
@@ -590,7 +597,7 @@ footer a {
         border-radius: 1.5rem;
         margin: auto;
     }
-    
+
     .cv {
         flex: 1;
         margin: 0 15px;
@@ -608,7 +615,7 @@ footer a {
     #address {
         margin: 0 25px 10px;
         order: 1;
-        
+
     }
 
     .form-container {
@@ -631,20 +638,22 @@ footer a {
 }
 
 @media screen and (max-width:1024px) {
-    
+
     .services-image {
         max-width: 300px;
-        margin: auto;
+        margin-bottom: auto;
         padding: 15px 0;
     }
 }
 
 @media screen and (min-width:2000px) {
-    body, .services {
+
+    body,
+    .services {
         font-size: x-large;
     }
-    
+
     .image-left img {
         max-width: 60%;
-    } 
+    }
 }
