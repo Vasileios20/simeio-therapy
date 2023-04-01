@@ -200,8 +200,7 @@ header {
 .image-left img {
     width: 100%;
     height: auto;
-    border-radius: 0 30%;
-    
+    border-radius: 0 30%;  
 }
 
 .right-about {
@@ -229,13 +228,13 @@ hr {
     display: flex;
     margin: 50px 0;
     flex-direction: column;
-
 }
 
 .services {
     display: flex;
     margin: 50px 0;
     text-align: left;
+    font-size: large;
 }
 
 .services-container h2 {
@@ -578,7 +577,7 @@ footer a {
         font-size: 80%;
     }
 
-    .services-image {
+    .services-image, .image-left {
         max-width: 300px;
         margin: auto;
         padding: 15px 0;
@@ -641,4 +640,14 @@ footer a {
         margin: auto;
         padding: 15px 0;
     }
+}
+
+@media screen and (min-width:2000px) {
+    body, .services {
+        font-size: x-large;
+    }
+    
+    .image-left img {
+        max-width: 60%;
+    } 
 }
