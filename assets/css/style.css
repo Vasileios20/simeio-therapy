@@ -462,10 +462,12 @@ hr {
 
 .return-home {
     margin: 100px auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.return-home div {
-    margin-top: 10px;
+.sub-form-logo {
+    margin: 20px auto;
 }
 
 /* CV section*/
