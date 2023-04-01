@@ -286,7 +286,7 @@ hr {
 /* Our team section*/
 
 .our-team-container {
-    background-color: rgba(79, 196, 207, 0.7);
+    
     display: flex;
     padding-bottom: 50px;
     flex-direction: column;
@@ -333,24 +333,21 @@ hr {
     margin: auto;
     background-color: #fafafa;
     border-radius: 1rem;
-
+    padding: 10px;
 }
 
-.our-team-inner h3 {
-    padding-top: 5px;
-    
-}
+
 
 
 .our-team-inner p {
-    padding: 1rem 0;
-    
+    padding: 10px 0;    
 }
 
 .our-team-link a {
     text-decoration: none;
     color: #4cb43a;
     font-weight: 400;
+    
 }
 
 .our-team-1 {
