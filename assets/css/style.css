@@ -245,14 +245,14 @@ hr {
     margin-top: 15px;
 }
 
-.services-left-1 {
-    margin: 0 15px auto 15px;
+.services-top-1 {
+    margin: 20px;
     flex: 1;
     order: 1;
 }
 
-.services-left-2 {
-    margin: auto 15px 15px 15px;
+.services-top-2 {
+    margin: 20px;
     flex: 1;
     order: 3;
 }
@@ -273,16 +273,16 @@ hr {
 }
 
 
-#services-right-1 {
-    margin: 0 15px auto 15px;
+.services-bottom-1 {
+    margin: 20px;
     flex: 1;
     order: 1;
 }
 
-#services-right-2 {
+.services-bottom-2 {
+    margin: 20px;
     flex: 1;
     order: 3;
-    margin: auto 15px 15px 15px;
 }
 
 /* Our team section*/
