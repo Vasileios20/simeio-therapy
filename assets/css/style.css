@@ -261,13 +261,16 @@ hr {
 .services-image {
     order: 2;
     margin: 20px 15px;
+    display: flex;
 }
 
 
 .services-image img {
     width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 0 50%;
+    margin: auto;
 }
 
 
