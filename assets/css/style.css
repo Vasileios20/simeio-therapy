@@ -357,7 +357,7 @@ hr {
 }
 
 .our-team-link {
-    border: 1px solid #5d3c96;
+    
     font-weight: 600;
     margin: auto;
     background-color: rgb(215, 227, 230);
@@ -401,7 +401,7 @@ hr {
 
 /* form*/
 .form-container-outer {
-    background-color: rgba(79, 196, 207, 0.7);
+    
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -510,7 +510,7 @@ hr {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid #5d3c96;
+    
     border-radius: 10px;
     background-color: rgba(112, 201, 209, 0.1);
 }
@@ -522,7 +522,7 @@ hr {
 
 .cv-info-inner {
     margin: auto;
-    border: 2px solid #5d3c96;
+    
     flex: 0.4;
     border-radius: 10px;
     background-color: rgba(112, 201, 209, 0.3);
