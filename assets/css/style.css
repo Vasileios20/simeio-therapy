@@ -112,11 +112,11 @@ header {
 
 #menu-toggle:checked+.menu-button-container .menu-button::before {
     margin-top: 0px;
-    transform: rotate(405deg);
+    transform: rotate(405deg);    
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button {
-    background: #4fc4cf;
+    background: #5d3c96;
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button::after {
@@ -149,13 +149,13 @@ header {
     #menu-toggle~.menu li {
         height: 0;
         margin: 0;
-        padding: 0;
+        padding: 0.5rem 0 0 0;
         border: 0;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
 
     #menu-toggle:checked~.menu li {
-        border-top: 1px solid #5d3c96;
+        border-top: 1px solid #fff;
         height: 2.5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 
@@ -168,11 +168,11 @@ header {
         padding: 0.5em 0;
         width: 100%;
         color: #fafafa;
-        background-color: #4fc4cf;
+        background-color: #5d3c96;
     }
 
     .menu>li:not(:last-child) {
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid #4fc4cf;
     }
 
     .logo {
@@ -313,7 +313,9 @@ hr {
 }
 
 .therapy img {
-    border-radius: 0 50%;   
+    width: 100%;
+    height: auto;
+    border-radius: 0 30%;   
 }
 
 .parental-image {
@@ -651,15 +653,12 @@ footer a {
     .services-image,
     .image-left,
     .therapy-image {
-        max-width: 100%px;
+        max-width: 90%;
         margin: auto;
         padding: 15px 0;
     }
 
-    .therapy-image img {
-        max-width: 100%;
-        order: 1;
-    }
+   
 
     .our-team-inner {
         flex-direction: column;
@@ -689,7 +688,6 @@ footer a {
     #address {
         margin: 0 25px 10px;
         order: 1;
-
     }
 
     .form-container {
