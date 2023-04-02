@@ -292,7 +292,30 @@ hr {
 
 /* Services individuals*/
 
+.therapy {
+    display: flex;    
+}
 
+.therapy-inner {
+  margin: 20px 30px;
+}
+
+.therapy li{
+    margin: 20px;
+}
+
+.therapy h3, .therapy h4 {
+    margin: 20px 0;
+}
+
+.therapy-image {
+    margin: 50px 20px auto 0;
+    max-width: 80%;
+}
+
+.therapy img {
+    border-radius: 0 50%;   
+}
 
 /* Our team section*/
 
