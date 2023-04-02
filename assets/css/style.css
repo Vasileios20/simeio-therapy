@@ -127,7 +127,7 @@ header {
     color: white;
     text-align: center;
     text-decoration: none;
-
+    cursor: pointer;
 }
 
 .dropdown-content:nth-child(2) {
@@ -136,13 +136,8 @@ header {
     color: #fff;
 }
 
-    {
-    background-color: #4fc4cf;
-}
-
 li.dropdown {
     display: inline-block;
-
 }
 
 .dropdown-content {
