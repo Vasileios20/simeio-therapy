@@ -574,13 +574,12 @@ footer a {
 
 .social {
     font-size: 150%;
-    align-items: center;
-    margin-right: auto;
+    align-items: center;    
     order: 1;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    margin-left: 25px;
+    margin: auto;
     flex-wrap: wrap;
 }
 
@@ -593,39 +592,36 @@ footer a {
     align-items: center;
     box-sizing: border-box;
     order: 3;
-    padding-right: 50px;
-    padding-top: 15px;
+    margin: 20px auto 0 auto;   
 }
 
 
-
 #address {
-    margin-left: auto;
+    margin: auto;
     display: flex;
     letter-spacing: 2px;
     order: 2;
     flex-direction: column;
     text-align: left;
-    padding-right: 10px;
-
 }
 
 #address h3,
 #address h2 {
-    padding-top: 15px;
+    padding-bottom: 15px;
     color: #fafafa;
     margin-right: auto;
     text-transform: capitalize;
 }
 
 #address p {
-    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 
 .copyright {
     font-size: small;
-    padding: 0 0 5px 50px;
+    padding-bottom: 5px;
+    margin: 10px auto;
 
 }
 
@@ -680,11 +676,13 @@ footer a {
 
     .map-footer {
         order: 2;
+        margin: 0 auto;
+        
     }
 
     iframe {
         width: 100%;
-        margin-left: 25px;
+        
     }
 
     #address {
