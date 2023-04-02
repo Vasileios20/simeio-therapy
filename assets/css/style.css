@@ -309,12 +309,16 @@ hr {
 }
 
 .therapy-image {
-    margin: 50px 20px auto 0;
+    margin: 50px 40px auto 0;
     max-width: 80%;
 }
 
 .therapy img {
     border-radius: 0 50%;   
+}
+
+.parental-image {
+    margin-bottom: 40px;
 }
 
 /* Our team section*/
