@@ -352,7 +352,7 @@ hr {
 }
 
 .our-team-bg {
-    background-color: #4fc4cf;
+    background-color: rgba(79, 196, 207, 0.4);
     height: 100%;
     width: 70%;
     padding: 10px;
@@ -382,25 +382,25 @@ hr {
 }
 
 .our-team-1 {
-    border: 2px solid #5d3c96;
+    
     border-radius: 1.5rem 1.5rem 0 1.5rem;
     margin-left: auto;
 }
 
 .our-team-2 {
-    border: 2px solid #5d3c96;
+    
     border-radius: 1.5rem 1.5rem 1.5rem 0;
     margin-right: auto;
 }
 
 .our-team-3 {
-    border: 2px solid #5d3c96;
+    
     border-radius: 1.5rem 0 1.5rem 1.5rem;
     margin-left: auto;
 }
 
 .our-team-4 {
-    border: 2px solid #5d3c96;
+    
     border-radius: 0 1.5rem 1.5rem 1.5rem;
     margin-right: auto;
 }
