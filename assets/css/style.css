@@ -474,11 +474,11 @@ hr {
 .submit-form-outer {
     display: flex;
     flex-direction: column;
-    height: 540px;
+    height: 80vh;
 }
 
 .submit-form {
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .return-home {
@@ -495,7 +495,6 @@ hr {
 
 .cv-outer {
     display: flex;
-
 }
 
 .cv-inner {
