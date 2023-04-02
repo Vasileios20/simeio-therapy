@@ -300,7 +300,7 @@ hr {
 .therapy li {
     margin: 20px;
 }
-
+.therapy p,
 .therapy h3,
 .therapy h4 {
     margin: 20px 0;
@@ -308,11 +308,9 @@ hr {
 
 .therapy-image {
     margin: 50px 40px auto 0;
-
 }
 
 .therapy img {
-
     height: auto;
     border-radius: 0 30%;
 }
