@@ -25,7 +25,7 @@ h3,
 h2 {
 
     text-transform: uppercase;
-    letter-spacing: 3px;    
+    letter-spacing: 3px;
     text-align: center;
 }
 
@@ -112,7 +112,7 @@ header {
 
 #menu-toggle:checked+.menu-button-container .menu-button::before {
     margin-top: 0px;
-    transform: rotate(405deg);    
+    transform: rotate(405deg);
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button {
@@ -180,8 +180,6 @@ header {
         height: 75px;
         margin: 10px 0 0 10px;
     }
-
-
 }
 
 .main-bg {
@@ -292,30 +290,31 @@ hr {
 /* Services pages*/
 
 .therapy {
-    display: flex;    
+    display: flex;
 }
 
 .therapy-inner {
-  margin: 20px 30px;
+    margin: 20px 30px;
 }
 
-.therapy li{
+.therapy li {
     margin: 20px;
 }
 
-.therapy h3, .therapy h4 {
+.therapy h3,
+.therapy h4 {
     margin: 20px 0;
 }
 
 .therapy-image {
     margin: 50px 40px auto 0;
-    
+
 }
 
 .therapy img {
-    
+
     height: auto;
-    border-radius: 0 30%;   
+    border-radius: 0 30%;
 }
 
 .parental-image {
@@ -384,25 +383,25 @@ hr {
 }
 
 .our-team-1 {
-    
+
     border-radius: 1.5rem 1.5rem 0 1.5rem;
     margin-left: auto;
 }
 
 .our-team-2 {
-    
+
     border-radius: 1.5rem 1.5rem 1.5rem 0;
     margin-right: auto;
 }
 
 .our-team-3 {
-    
+
     border-radius: 1.5rem 0 1.5rem 1.5rem;
     margin-left: auto;
 }
 
 .our-team-4 {
-    
+
     border-radius: 0 1.5rem 1.5rem 1.5rem;
     margin-right: auto;
 }
@@ -503,7 +502,7 @@ hr {
 
 .cv-outer {
     display: flex;
-    
+
 }
 
 .cv-inner {
@@ -511,13 +510,13 @@ hr {
     margin: auto;
     padding-top: 20px;
     display: flex;
-    
+
 }
 
 .cv {
     text-align: center;
     flex: 0.8;
-    margin: 20px auto;    
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     border: 1px solid #5d3c96;
@@ -526,7 +525,7 @@ hr {
 }
 
 .cv-info {
-    display: flex; 
+    display: flex;
     margin-top: 20px;
 }
 
@@ -534,7 +533,7 @@ hr {
     margin: auto;
     border: 2px solid #5d3c96;
     flex: 0.4;
-    border-radius: 10px;    
+    border-radius: 10px;
     background-color: rgba(112, 201, 209, 0.3);
 }
 
@@ -542,7 +541,8 @@ hr {
     margin-top: 20px;
 }
 
-.cv-info h3, .cv-info h4 {
+.cv-info h3,
+.cv-info h4 {
     margin: 20px 0;
 }
 
@@ -574,7 +574,7 @@ footer a {
 
 .social {
     font-size: 150%;
-    align-items: center;    
+    align-items: center;
     order: 1;
     display: flex;
     justify-content: space-between;
@@ -592,7 +592,7 @@ footer a {
     align-items: center;
     box-sizing: border-box;
     order: 3;
-    margin: 20px auto 0 auto;   
+    margin: 20px auto 0 auto;
 }
 
 
@@ -654,7 +654,7 @@ footer a {
         padding: 15px 0;
     }
 
-    .therapy-image img{
+    .therapy-image img {
         width: 100%;
     }
 
@@ -663,7 +663,7 @@ footer a {
         margin: 0;
     }
 
-    .our-team-bg-sm {        
+    .our-team-bg-sm {
         border-radius: 1.5rem;
         margin: auto;
     }
@@ -676,12 +676,12 @@ footer a {
     .map-footer {
         order: 2;
         margin: 0 auto;
-        
+
     }
 
     iframe {
         width: 100%;
-        
+
     }
 
     #address {
