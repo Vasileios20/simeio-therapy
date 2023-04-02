@@ -603,8 +603,13 @@ footer a {
 
     .main-bg,
     .services,
-    .footer-container {
+    .footer-container,
+    .therapy {
         flex-direction: column;
+    }
+
+    .services li {
+        margin: 0 20px;
     }
 
     .main-bg {
@@ -612,10 +617,16 @@ footer a {
     }
 
     .services-image,
-    .image-left {
-        max-width: 300px;
+    .image-left,
+    .therapy-image {
+        max-width: 100%px;
         margin: auto;
         padding: 15px 0;
+    }
+
+    .therapy-image img {
+        max-width: 100%;
+        order: 1;
     }
 
     .our-team-inner {
