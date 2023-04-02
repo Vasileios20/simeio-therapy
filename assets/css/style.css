@@ -23,13 +23,10 @@ h1 {
 
 h3,
 h2 {
-
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
 }
-
-
 
 header {
     background-color: #5d3c96;
@@ -57,7 +54,6 @@ header {
 .active {
     border-bottom: 1px solid #5d3c96;
 }
-
 
 .menu {
     display: flex;
@@ -265,7 +261,6 @@ hr {
     display: flex;
 }
 
-
 .services-image img {
     width: 100%;
     max-width: 80%;
@@ -273,7 +268,6 @@ hr {
     border-radius: 0 50%;
     margin: auto;
 }
-
 
 .services-bottom-1 {
     margin: 20px;
@@ -300,6 +294,7 @@ hr {
 .therapy li {
     margin: 20px;
 }
+
 .therapy p,
 .therapy h3,
 .therapy h4 {
@@ -508,7 +503,6 @@ hr {
     margin: auto;
     padding-top: 20px;
     display: flex;
-
 }
 
 .cv {
@@ -590,7 +584,7 @@ footer a {
     align-items: center;
     box-sizing: border-box;
     order: 3;
-    margin: 20px auto 0 auto;
+    margin: 10px auto;
 }
 
 
@@ -612,15 +606,13 @@ footer a {
 }
 
 #address p {
-    margin-bottom: 15px;
-
+    padding-bottom: 15px;
 }
 
 .copyright {
     font-size: small;
     padding-bottom: 5px;
-    margin: 10px auto;
-
+    margin: 0 auto 10px auto;
 }
 
 .copyright h3 {
@@ -679,7 +671,6 @@ footer a {
 
     iframe {
         width: 100%;
-
     }
 
     #address {
