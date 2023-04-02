@@ -289,7 +289,7 @@ hr {
     order: 3;
 }
 
-/* Services individuals*/
+/* Services pages*/
 
 .therapy {
     display: flex;    
@@ -309,11 +309,11 @@ hr {
 
 .therapy-image {
     margin: 50px 40px auto 0;
-    max-width: 80%;
+    
 }
 
 .therapy img {
-    width: 100%;
+    
     height: auto;
     border-radius: 0 30%;   
 }
@@ -656,6 +656,10 @@ footer a {
         max-width: 90%;
         margin: auto;
         padding: 15px 0;
+    }
+
+    .therapy-image img{
+        width: 100%;
     }
 
     .our-team-inner {
