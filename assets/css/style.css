@@ -658,8 +658,6 @@ footer a {
         padding: 15px 0;
     }
 
-   
-
     .our-team-inner {
         flex-direction: column;
         margin: 0;
@@ -706,6 +704,11 @@ footer a {
 
     .social li {
         margin-right: 15px;
+    }
+
+    .copyright {
+        padding: 0;
+        margin: 0 0 5px 25px;
     }
 }
 
