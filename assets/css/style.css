@@ -48,7 +48,7 @@ header {
 .menu li a {
     color: #5d3c96;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 150%;
 }
 
 .active {
@@ -120,11 +120,72 @@ header {
     transform: rotate(-405deg);
 }
 
+/* Dropdown nav*/
+
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.dropdown-content:nth-child(2) {
+    background-color: rgba(79, 196, 207, 0.7);
+    font-size: 50%;
+    color: #fff;
+}
+
+    {
+    background-color: #4fc4cf;
+}
+
+li.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5d3c96;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;    
+    overflow: auto;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 20%;
+}
+
+.dropdown-content a:hover {
+    background-color: #4fc4cf;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
 @media (max-width: 800px) {
 
     .active {
         border-bottom: 1px solid #fff;
         margin-bottom: 8px;
+    }
+
+    .dropdown:checked .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #4fc4cf;
     }
 
     .menu-button-container {
@@ -164,7 +225,7 @@ header {
         padding: 0;
         width: 100%;
         color: #fafafa;
-        background-color: #5d3c96;
+        background-color: #4fc4cf;
     }
 
     .menu>li:not(:last-child) {
@@ -172,7 +233,7 @@ header {
     }
 
     .menu li a {
-        color: #ffffff;
+        
         text-decoration: none;
         font-size: x-large;
     }
@@ -363,7 +424,7 @@ hr {
 }
 
 .our-team-link {
-    
+
     font-weight: 600;
     margin: auto;
     background-color: rgb(215, 227, 230);
@@ -407,7 +468,7 @@ hr {
 
 /* form*/
 .form-container-outer {
-    
+
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -516,7 +577,7 @@ hr {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    
+
     border-radius: 10px;
     background-color: rgba(112, 201, 209, 0.1);
 }
@@ -528,7 +589,7 @@ hr {
 
 .cv-info-inner {
     margin: auto;
-    
+
     flex: 0.4;
     border-radius: 10px;
     background-color: rgba(112, 201, 209, 0.3);
