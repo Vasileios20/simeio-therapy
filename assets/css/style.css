@@ -25,8 +25,7 @@ h3,
 h2 {
 
     text-transform: uppercase;
-    letter-spacing: 3px;
-    
+    letter-spacing: 3px;    
     text-align: center;
 }
 
@@ -363,8 +362,6 @@ hr {
     margin-top: auto;
 }
 
-
-
 .our-team-link {
     border: 1px solid #5d3c96;
     font-weight: 600;
@@ -382,7 +379,6 @@ hr {
     text-decoration: none;
     color: #106800;
     font-weight: 400;
-
 }
 
 .our-team-1 {
@@ -409,8 +405,8 @@ hr {
     margin-right: auto;
 }
 
+/* form*/
 .form-container-outer {
-
     background-color: rgba(79, 196, 207, 0.7);
     width: 100%;
     overflow: hidden;
@@ -418,7 +414,6 @@ hr {
 }
 
 .form-container-bg {
-
     display: flex;
     justify-content: center;
 }
@@ -506,16 +501,54 @@ hr {
 
 .cv-outer {
     display: flex;
+    
+}
+
+.cv-inner {
+    flex: 1;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    
 }
 
 .cv {
-    flex: 0.4;
+    text-align: center;
+    flex: 0.8;
+    margin: 20px auto;    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #5d3c96;
+    border-radius: 10px;
+    background-color: rgba(112, 201, 209, 0.1);
+}
+
+.cv-info {
+    display: flex; 
+    margin-top: 20px;
+}
+
+.cv-info-inner {
     margin: auto;
-    padding-top: 20px;
+    border: 2px solid #5d3c96;
+    flex: 0.4;
+    border-radius: 10px;    
+    background-color: rgba(112, 201, 209, 0.3);
+}
+
+.cv-description {
+    margin-top: 20px;
+    background-color: ;    
+}
+
+.cv-info h3, .cv-info h4 {
+    margin: 20px 0;
 }
 
 .cv p {
-    padding: 20px 0;
+    padding: 20px 10px;
+    text-align: left;
+    font-weight: 600;
 }
 
 /* footer*/
