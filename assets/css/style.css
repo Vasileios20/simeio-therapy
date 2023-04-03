@@ -541,6 +541,10 @@ hr {
     flex: 1;
 }
 
+.form-control label {
+    padding-bottom: 5px;
+}
+
 .text-input {
     border-radius: 5px;
     border: 2px inset #5d3c96;
