@@ -362,16 +362,25 @@ hr {
 
 .therapy-inner {
     margin: 20px 30px;
+
 }
 
 .therapy li {
     margin: 20px;
 }
 
+.therapy-heading {
+    color: #5d3c96;
+}
+
 .therapy p,
-.therapy h3,
-.therapy h4 {
+.therapy h2,
+.therapy h3 {
     margin: 20px 0;
+}
+
+.therapy h3 {
+    text-align: left;
 }
 
 .therapy-image {
