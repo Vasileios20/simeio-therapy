@@ -142,7 +142,7 @@ header {
 }
 
 .dropdown-content:nth-child(2) {
-    font-size: 50%;
+    font-size: 80%;
     color: #fff;
 }
 
@@ -250,7 +250,7 @@ li.dropdown {
 
     .menu li a {
         text-decoration: none;
-        font-size: x-large;
+        font-size: 150%;
     }
 
     .logo {
@@ -309,15 +309,15 @@ hr {
     display: flex;
     margin: 50px 0;
     text-align: left;
-    font-size: large;
+    font-size: 120%;
 }
 
 .services-container h2 {
-    font-size: xx-large;
+    font-size: 150%;
 }
 
 .services-top-2 h4 {
-    font-size: large;
+    font-size: 110%;
     margin: 10px 0;
 }
 
@@ -416,7 +416,7 @@ hr {
 
 .our-team-container h2 {
     margin-top: 20px;
-    font-size: xx-large;
+    font-size: 180%;
     padding-bottom: 5px;
 }
 
@@ -525,11 +525,12 @@ hr {
 }
 
 .required-field-b {
-    font-size: small;
+    font-size: 90%;
 }
 
 .required-field {
     color: #f74242;
+    font-size: 90%;
 }
 
 .form-control {
@@ -708,7 +709,7 @@ footer a {
 }
 
 .copyright {
-    font-size: small;
+    font-size: 80%;
     padding-bottom: 5px;
     margin: 0 auto 10px auto;
 }
