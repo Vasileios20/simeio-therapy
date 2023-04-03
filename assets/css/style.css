@@ -612,7 +612,6 @@ hr {
 
 .cv-info-inner {
     margin: auto;
-
     flex: 0.4;
     border-radius: 10px;
     background-color: rgba(112, 201, 209, 0.3);
@@ -622,9 +621,14 @@ hr {
     margin-top: 20px;
 }
 
+.cv-info h2,
 .cv-info h3,
 .cv-info h4 {
     margin: 20px 0;
+}
+
+.cv-info h3 {
+    letter-spacing: 2px;
 }
 
 .cv p {
