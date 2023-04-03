@@ -54,7 +54,7 @@ header {
     margin: 10px 0 0 10px;
 }
 
-/* Navbar*/
+/* Navbar / Code was borrowed from https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 .menu li a {
     color: #5d3c96;
@@ -131,7 +131,7 @@ header {
     transform: rotate(-405deg);
 }
 
-/* Dropdown nav*/
+/* Dropdown nav */
 
 .dropbtn {
     display: inline-block;
@@ -405,7 +405,7 @@ hr {
     margin-bottom: 40px;
 }
 
-/* Our team section*/
+/* Our team section/ code borrowed and edited from https://rising-women.herokuapp.com/mentors/*/
 
 .our-team-container {
 
@@ -809,7 +809,7 @@ footer a {
     .menu {
         margin-right: 10px;
     }
-    
+
     .services-image {
         max-width: 300px;
         margin-bottom: auto;
@@ -819,7 +819,7 @@ footer a {
 
 @media screen and (min-width:2000px) {
 
-    
+
 
     .image-left img {
         max-width: 60%;
