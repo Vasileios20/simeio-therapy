@@ -6,10 +6,15 @@
     border: none;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: Manrope, sans-serif;
     font-weight: 500;
     color: #616161;
+    min-height: 100%;
 }
 
 /* headings and logo */
@@ -556,7 +561,6 @@ hr {
 .submit-form-outer {
     display: flex;
     flex-direction: column;
-    height: 80vh;
 }
 
 .submit-form {
@@ -564,7 +568,7 @@ hr {
 }
 
 .return-home {
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
 }
@@ -680,14 +684,14 @@ footer a {
 
 #address h3,
 #address h2 {
-    padding-bottom: 15px;
+    padding-bottom: 8px;
     color: #fafafa;
     margin-right: auto;
     text-transform: capitalize;
 }
 
 #address p {
-    padding-bottom: 15px;
+    padding-bottom: 8px;
 }
 
 .copyright {
@@ -785,6 +789,10 @@ footer a {
 
 @media screen and (max-width:1024px) {
 
+    .menu {
+        margin-right: 10px;
+    }
+    
     .services-image {
         max-width: 300px;
         margin-bottom: auto;
@@ -794,10 +802,7 @@ footer a {
 
 @media screen and (min-width:2000px) {
 
-    body,
-    .services {
-        font-size: x-large;
-    }
+    
 
     .image-left img {
         max-width: 60%;
