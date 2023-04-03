@@ -15,6 +15,8 @@ body {
     font-weight: 500;
     color: #616161;
     min-height: 100%;
+    width: 1800px;
+    margin: 0 auto;
 }
 
 /* headings and logo */
