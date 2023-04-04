@@ -46,11 +46,6 @@ This project has been developed for the Special Treatments Center "simeio" based
 
   Font weights used : 400, 500, 600
 
-
-
-
-
-
 # Features 
 
 # Techonologies Used
