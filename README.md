@@ -17,6 +17,16 @@ This project has been developed for the Special Treatments Center "simeio" based
 * [Credits](#credits)
 
 # Design
+~~stikethrough~~
+  * Colours
+  ![Colour palette](documentation/cl-palette.png)
+
+  The #5D4E96 and the #4FC4CF were given by the owners of the Special Treatments Center.
+
+  The rest of the colours were chosen to match the two above.
+
+  Opacity has been used for : #4FC4CF, #E5E7E9, #70C9D1
+
 
 # Features 
 
