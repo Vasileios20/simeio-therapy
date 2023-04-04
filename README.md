@@ -10,7 +10,8 @@ This project has been developed for the Special Treatments Center "simeio" based
 ## Contents
 
 * [Design](#design)
-  * [Colours](#colours)
+  * [Colour Scheme](#colours-scheme)
+  * [Typography](#typography)
 * [Features](#features)
 * [Technologies Used](#techonologies-used)
 * [Deployment and Local Development](#deployment-and-local-development)
@@ -19,10 +20,10 @@ This project has been developed for the Special Treatments Center "simeio" based
 
 # Design
 ~~stikethrough~~
-  * ## Colours
+  * ## Colour Scheme
   ![Colour palette](documentation/cl-palette.png)
 
-  The #5D4E96 and the #4FC4CF were given by the owners of the Special Treatments Center.
+  The #5D4E96 and the #4FC4CF were chosen by the owners of the Special Treatments Center.
 
   The rest of the colours were chosen to match the two above.
 
@@ -37,6 +38,17 @@ This project has been developed for the Special Treatments Center "simeio" based
   Other colours have been used :
 
   #616161 , #f74242 , #fafafa , #3f3f3f
+
+  * ## Typography
+  The Manrope font was chosen by the owners of the Special Treatment Center.
+
+  The font imported from [Google fonts](https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Oswald:wght@300&display=swap).
+
+  Font weights used : 400, 500, 600
+
+
+
+
 
 
 # Features 
