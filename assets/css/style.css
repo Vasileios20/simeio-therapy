@@ -414,7 +414,7 @@ hr {
 .our-team-container {
 
     display: flex;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     flex-direction: column;
 }
 
@@ -602,7 +602,7 @@ hr {
 .cv-inner {
     flex: 1;
     margin: auto;
-    padding-top: 20px;
+    padding: 20px 0;
     display: flex;
 }
 
@@ -612,7 +612,6 @@ hr {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-
     border-radius: 10px;
     background-color: rgba(112, 201, 209, 0.1);
 }
@@ -763,6 +762,21 @@ footer a {
     .cv {
         flex: 1;
         margin: 0 15px;
+    }
+
+    .cv-info-inner {
+        margin: auto;
+        padding: 0 30px;
+        border-radius: 10px;
+        background-color: rgba(112, 201, 209, 0.3);
+    }
+
+    .cv-info-elena {
+        padding: 0 40px;
+    }
+
+    .cv-info-katerina {
+        padding: 0 15px;
     }
 
     .map-footer {
