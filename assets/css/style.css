@@ -307,9 +307,9 @@ hr {
 
 .services {
     display: flex;
-    margin: 50px 0;
+    margin: 20px 0;
     text-align: left;
-    font-size: 120%;
+    /* font-size: 120%; */
 }
 
 .services-container h2 {
@@ -335,6 +335,10 @@ hr {
     margin: 20px;
     flex: 1;
     order: 3;
+}
+
+.services-top-2 ul {
+    padding-left: 20px;
 }
 
 .services-image {
@@ -730,10 +734,6 @@ footer a {
         flex-direction: column;
     }
 
-    .services li {
-        margin: 0 20px;
-    }
-
     .main-bg {
         font-size: 80%;
     }
@@ -818,9 +818,7 @@ footer a {
 }
 
 @media screen and (min-width:2000px) {
-
-
-
+    
     .image-left img {
         max-width: 60%;
     }
