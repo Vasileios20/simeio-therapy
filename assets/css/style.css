@@ -264,7 +264,6 @@ li.dropdown {
     text-align: center;
     display: flex;
     margin: 50px auto;
-
 }
 
 .image-left {
@@ -309,7 +308,6 @@ hr {
     display: flex;
     margin: 20px 0;
     text-align: left;
-    /* font-size: 120%; */
 }
 
 .services-container h2 {
@@ -375,7 +373,6 @@ hr {
 
 .therapy-inner {
     margin: 20px 30px;
-
 }
 
 .therapy li {
@@ -412,7 +409,6 @@ hr {
 /* Our team section/ code borrowed and edited from https://rising-women.herokuapp.com/mentors/*/
 
 .our-team-container {
-
     display: flex;
     margin-bottom: 50px;
     flex-direction: column;
@@ -452,7 +448,6 @@ hr {
 }
 
 .our-team-link {
-
     font-weight: 600;
     margin: auto;
     background-color: rgb(215, 227, 230);
@@ -471,32 +466,28 @@ hr {
 }
 
 .our-team-1 {
-
     border-radius: 1.5rem 1.5rem 0 1.5rem;
     margin-left: auto;
 }
 
 .our-team-2 {
-
     border-radius: 1.5rem 1.5rem 1.5rem 0;
     margin-right: auto;
 }
 
 .our-team-3 {
-
     border-radius: 1.5rem 0 1.5rem 1.5rem;
     margin-left: auto;
 }
 
 .our-team-4 {
-
     border-radius: 0 1.5rem 1.5rem 1.5rem;
     margin-right: auto;
 }
 
 /* form*/
-.form-container-outer {
 
+.form-container-outer {
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -574,6 +565,8 @@ hr {
     display: block;
 }
 
+/* Thank you page*/
+
 .submit-form-outer {
     display: flex;
     flex-direction: column;
@@ -593,7 +586,7 @@ hr {
     margin: 20px auto;
 }
 
-/* CV section*/
+/* CV pages*/
 
 .cv-outer {
     display: flex;
@@ -692,7 +685,6 @@ footer a {
     margin: 10px auto;
 }
 
-
 #address {
     margin: auto;
     display: flex;
@@ -782,7 +774,6 @@ footer a {
     .map-footer {
         order: 2;
         margin: 0 auto;
-
     }
 
     iframe {
@@ -832,7 +823,7 @@ footer a {
 }
 
 @media screen and (min-width:2000px) {
-    
+
     .image-left img {
         max-width: 60%;
     }
