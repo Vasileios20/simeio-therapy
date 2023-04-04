@@ -14,12 +14,14 @@ This project has been developed for the Special Treatments Center "simeio" based
   * [Typography](#typography)
 * [Features](#features)
 * [Technologies Used](#techonologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Deployment and Local Development](#deployment-and-local-development)
 * [Testing](#testing)
 * [Credits](#credits)
 
 # Design
-~~stikethrough~~
+
   * ## Colour Scheme
   ![Colour palette](documentation/cl-palette.png)
 
@@ -49,6 +51,19 @@ This project has been developed for the Special Treatments Center "simeio" based
 # Features 
 
 # Techonologies Used
+## Languages Used
+HTML, CSS
+
+## Frameworks, Libraries & Programs Used
+* [GitHub](https://github.com/) - To save and store files for the website.
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+* [Techsini](https://techsini.com/multi-mockup/index.php) - To show the web image in various devices.
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website
+* [Google Developer Tools](https://developer.chrome.com/docs/) - To test features, resposiveness and stylilng.
+* [TinyPNG](https://tinypng.com/) - To reduce size of the images.
+* [Favicon](https://favicon.io/) - To create favicon.
+* [Shields IO](https://shields.io/) - To add badges to README.
+* [Coolors](https://coolors.co/) - To create palette image to README.
 
 # Deployment and Local Development
 
