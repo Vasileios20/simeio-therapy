@@ -42,7 +42,7 @@ This project has been developed for the Special Treatments Center "simeio" based
   * ## Typography
   The Manrope font was chosen by the owners of the Special Treatment Center.
 
-  The font imported from [Google fonts](https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Oswald:wght@300&display=swap).
+  The font imported from [Google fonts](https://fonts.google.com/specimen/Manrope?query=man).
 
   Font weights used : 400, 500, 600
 
