@@ -3,6 +3,10 @@ This project has been developed for the Special Treatments Center "simeio" based
 
 [mock up image](documentation/mock-up.png)
 
+[View the deployed project here](https://vasileios20.github.io/simeio-therapy/index.html)
+
+[badges](https://img.shields.io/badge/<CONTRIBUTORS>-<1>-<RED>)
+
 # UX?
 
 # Design
