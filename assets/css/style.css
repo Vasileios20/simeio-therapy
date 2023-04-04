@@ -135,7 +135,7 @@ header {
 
 .dropbtn {
     display: inline-block;
-    color: #fff;
+    color: #fafafa;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -143,11 +143,11 @@ header {
 
 .dropdown-content:nth-child(2) {
     font-size: 80%;
-    color: #fff;
+    color: #fafafa;
 }
 
 .dropdown-content:nth-child(2) a {
-    background-color: #fff;
+    background-color: #fafafa;
 }
 
 li.dropdown {
@@ -164,7 +164,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
-    color: #fff;
+    color: #fafafa;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -450,7 +450,7 @@ hr {
 .our-team-link {
     font-weight: 600;
     margin: auto;
-    background-color: rgb(215, 227, 230);
+    background-color: rgb(229, 231, 233, 0.7);
     border-radius: 1rem;
     padding: 10px;
 }
@@ -463,6 +463,8 @@ hr {
     text-decoration: none;
     color: #106800;
     font-weight: 400;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }
 
 .our-team-1 {
@@ -563,6 +565,7 @@ hr {
     background-color: #5d3c96;
     color: #fafafa;
     display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
 }
 
 /* Thank you page*/
