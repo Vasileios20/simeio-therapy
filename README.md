@@ -32,7 +32,7 @@ This project has been developed for the Special Treatments Center "simeio" based
   | ---| ---|
   | #4FC4CF | rgba(79, 196, 207, 0.4) |
   | #E5E7E9 | rgba(229, 231, 233, 0.7) |
-  | #70C9D1 | rgba(229, 231, 233, 0.7) | 
+  | #70C9D1 | rgba(112, 201, 209, 0.1) | 
   | #70C9D1 | rgba(112, 201, 209, 0.3) |
 
   Other colours have been used :
