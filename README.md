@@ -5,20 +5,25 @@ This project has been developed for the Special Treatments Center "simeio" based
 
 [View the deployed project here](https://vasileios20.github.io/simeio-therapy/index.html)
 
-![badges](https://img.shields.io/badge/<CONTRIBUTORS>-<1>-<RED>)
+![GitHub contributors](https://img.shields.io/badge/CONTRIBUTORS-1-<RED>) ![W3C validation](https://img.shields.io/badge/W3C-VALIDATED-<GREEN>)
 
-# UX?
+## Contents
+
+* [Design](#design)
+* [Features](#features)
+* [Technologies Used](#techonologies-used)
+* [Deployment and Local Development](#deployment-and-local-development)
+* [Testing](#testing)
+* [Credits](#credits)
 
 # Design
 
 # Features 
 
-# Techonologies used
+# Techonologies Used
 
-# Deployment and Loacal Development
+# Deployment and Local Development
 
 # Testing
 
 # Credits
-
-[def]: documentation/mock-up.png
