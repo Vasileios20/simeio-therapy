@@ -17,6 +17,7 @@ This project has been developed for the Special Treatments Center "simeio" based
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Deployment and Local Development](#deployment-and-local-development)
+  * [Deployment](#deployment)
 * [Testing](#testing)
 * [Credits](#credits)
 
@@ -66,6 +67,18 @@ HTML, CSS
 * [Coolors](https://coolors.co/) - To create palette image to README.
 
 # Deployment and Local Development
+## Deployment
+The site is deployed using GitHub Pages. Deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-therapy/index.html)
+
+To deploy the site to GitHub Pages :
+1. Log in (sign up) to GitHub.
+2. Go to the repositoty for this project [Simeio Therapy](https://github.com/Vasileios20/simeio-therapy).
+3. Go to settings.
+4. Select Pages from the left hand menu.
+5. From the dropdown menu at source select the main branch and press save.
+6. The site has been deployed. Check at the top of the page, it might take a couple of minutes.
+
+
 
 # Testing
 
