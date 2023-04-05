@@ -18,7 +18,10 @@ This project has been developed for the Special Treatments Center "simeio" based
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Deployment and Local Development](#deployment-and-local-development)
   * [Deployment](#deployment)
-* [Testing](#testing)
+  * [Local Development](#local-development)
+    * [How to fork](#how-to-fork)
+    * [How to clone](#how-to-clone)
+  * [Testing](#testing)
 * [Credits](#credits)
 
 # Design
@@ -78,7 +81,20 @@ To deploy the site to GitHub Pages :
 5. From the dropdown menu at source select the main branch and press save.
 6. The site has been deployed. Check at the top of the page, it might take a couple of minutes.
 
+## Local Development
+### How to fork
+To fork the repository :
+1. Log in (sign up) to GitHub.
+2. Go to the repository for this project [Simeio Therapy](https://github.com/Vasileios20/simeio-therapy).
+3. Click the fork button in the top right corner.
 
+### How to clone
+To clone the repository :
+1. Log in (sign up) to GitHub.
+2. Go to the repository for this project [Simeio Therapy](https://github.com/Vasileios20/simeio-therapy).
+3. Click on the code button, select one of the HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 # Testing
 
