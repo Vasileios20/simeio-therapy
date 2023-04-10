@@ -63,7 +63,6 @@ This project has been developed for the Special Treatments Center "simeio" based
 # Features 
 The site consists of a home page, an about us page in which there 4 cards with links to cv pages, 4 services pages, a contact page and a thank you page that is shown when the contact form has been submited.
 
-
 All pages on the site are responsive and have :
  * A favicon and a title of the active page on the browser tab.
 
@@ -119,7 +118,6 @@ The Contact Us Page consists of a contact form with the fields : user's first an
 The Thank you Page consists of a message that confirms form's submition and an image of the logo with link to the home page.
 
 ![Thank you page](documentation/thank-you.png)
-
 # Techonologies Used
 ## Languages Used
 HTML, CSS
@@ -163,5 +161,3 @@ To clone the repository :
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 # Testing
-
-# Credits
