@@ -223,6 +223,10 @@ li.dropdown {
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
         padding-top: 0.5rem;
     }
+    
+    #menu-button-rm {
+        display: none;
+    }
 
     .dropdown-content a {
         text-align: center;
