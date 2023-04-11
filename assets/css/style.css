@@ -332,8 +332,9 @@ hr {
     flex: 1;
 }
 
+.services-bottom-2,
 .services-top-2 {
-    margin-top: auto;
+    margin-top: 20px;
 }
 
 .services-top-2 ul {
@@ -358,10 +359,6 @@ hr {
     order: 2;
 }
 
-.services-bottom-2 {
-    margin-top: auto;
-}
-
 .services-image-bottom {
     order: 1;
     margin-right: 20px;
@@ -375,7 +372,15 @@ hr {
 
 }
 
-/* Services pages*/
+.services a {
+    padding:1px 8px;
+    border-radius: 1rem;
+    background: rgba(93, 62, 150, 1);
+    color: #fafafa;
+    box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Services/Therapies pages */
 
 .therapy {
     display: flex;
@@ -465,16 +470,23 @@ hr {
     padding: 10px;
 }
 
+.our-team-inner h3 {
+    text-transform: capitalize;
+}
+
 .our-team-inner p {
     padding: 10px 0;
+    text-transform: uppercase;
 }
 
 .our-team-link a {
     text-decoration: none;
-    color: #106800;
+    color: #fafafa;
     font-weight: 400;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 1rem ;
+    background-color: #5d3e96;
+    padding: 1px 4px;
 }
 
 .our-team-1 {
@@ -642,6 +654,10 @@ hr {
 .cv-info h3,
 .cv-info h4 {
     margin: 20px 0;
+}
+
+.cv-info h2 {
+    text-transform: capitalize;
 }
 
 .cv-info h3 {
