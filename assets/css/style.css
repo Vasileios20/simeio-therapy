@@ -846,7 +846,6 @@ footer a {
         flex: 3;
     }
 
-
     .services-image-top img,
     .services-image-bottom img {
         max-width: 100%;
@@ -867,6 +866,13 @@ footer a {
         margin-bottom: 20px;
     }
 
-}
+    .therapy {
+        flex-direction:column;
+    }
 
-@media screen and (min-width:2000px) {}
+    .therapy-image {
+        margin:auto;
+        padding-top: 20px;
+        order:2;
+    }
+}
