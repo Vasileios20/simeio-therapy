@@ -518,6 +518,7 @@ hr {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-top: auto;
 }
 
 .form-container-bg {
