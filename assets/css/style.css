@@ -179,7 +179,7 @@ li.dropdown {
     display: block;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
 
     .active {
         border-bottom: 1px solid #5d3c96;
@@ -301,9 +301,14 @@ hr {
 
 /* services */
 
-.services-container {
+.services-container-1 {
     display: flex;
-    margin: 50px 0;
+    margin: 20px 0 0 0;
+    flex-direction: column;
+}
+.services-container-2 {
+    display: flex;
+    margin: 20px 0 0 0;
     flex-direction: column;
 }
 
@@ -355,7 +360,6 @@ hr {
 .services-bottom {
     display: flex;
     flex-direction: column;
-    flex: 1;
     order: 2;
 }
 
@@ -373,11 +377,11 @@ hr {
 }
 
 .services a {
-    padding:1px 8px;
+    padding: 1px 8px;
     border-radius: 1rem;
     background: rgba(93, 62, 150, 1);
     color: #fafafa;
-    box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* Services/Therapies pages */
@@ -484,7 +488,7 @@ hr {
     color: #fafafa;
     font-weight: 400;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 1rem ;
+    border-radius: 1rem;
     background-color: #5d3e96;
     padding: 1px 4px;
 }
@@ -745,7 +749,7 @@ footer a {
     color: #fafafa;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
 
     .main-bg,
     .services,
@@ -781,6 +785,19 @@ footer a {
     .therapy-image img {
         width: 100%;
         height: auto;
+    }
+
+    .services-bottom {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+
+    .services-image-bottom {
+        margin-right: 20px;
+        display: flex;
+        flex: 2;
+        order: 2;
     }
 
     .our-team-inner {
@@ -883,12 +900,12 @@ footer a {
     }
 
     .therapy {
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .therapy-image {
-        margin:auto;
+        margin: auto;
         padding-top: 20px;
-        order:2;
+        order: 2;
     }
 }
