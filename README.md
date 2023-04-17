@@ -132,6 +132,7 @@ HTML, CSS
 * [Favicon](https://favicon.io/) - To create favicon.
 * [Shields IO](https://shields.io/) - To add badges to README.
 * [Coolors](https://coolors.co/) - To create palette image to README.
+* [Font Awesome](https://fontawesome.com/icons) - To create icons
 
 # Deployment and Local Development
 ## Deployment
