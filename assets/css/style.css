@@ -306,6 +306,7 @@ hr {
     margin: 40px 0 0 0;
     flex-direction: column;
 }
+
 .services-container-2 {
     display: flex;
     margin: 40px 0;
@@ -902,7 +903,7 @@ footer a {
 
     .right-about {
         flex: 4;
-        order:1;
+        order: 1;
     }
 
     .services-top-1,
@@ -919,4 +920,39 @@ footer a {
         padding-top: 20px;
         order: 2;
     }
+}
+
+/*Error page*/
+
+.error-page-container {
+    display: flex;
+    margin: auto;
+    color: #fafafa;
+    background-color: rgba(93, 62, 150, 0.5);
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.error-page h2 {
+    font-size: 3rem;
+    text-transform: none;
+}
+
+.error-page p,
+.error-page a {
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #fafafa;
+}
+
+.error-page-footer {
+    margin: 0;
 }
