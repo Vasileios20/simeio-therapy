@@ -66,7 +66,7 @@ The site consists of a home page, an about us page in which there 4 cards with l
 All pages on the site are responsive and have :
  * A favicon and a title of the active page on the browser tab.
 
- ![Favicon, Active page ](documentation/favicon-title.png)
+ ![Favicon, Active page ](documentation/features-img/favicon-title.png)
 
  * A logo image on top left corner which acts and as home button.
 
@@ -74,50 +74,55 @@ All pages on the site are responsive and have :
 
  * A dropdown menu on hover to the services button with white background and coloured on hover with links to each service's page.
 
- ![Header](documentation/navbar.png) 
- ![Header mobile](documentation/header-mobile.png)
+ ![Header](documentation/features-img/navbar.png) 
+ ![Header mobile](documentation/features-img/header-mobile.png)
 
  * A footer section with social links that open in a new tab, contact information, an iframe with a pin on the address and a contact us with a link to the contact us page.
-![Footer](documentation/footer.png)
+![Footer](documentation/features-img/footer.png)
 
 ## Home Page
 
 The Home Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand, a [services section](#services-section) with an image in the between two services, which are in two rows, the first paragraph of each service with link to the service's page.
 
-![Home Page](documentation/home-page.png)
+![Home Page](documentation/features-img/home-page.png)
 
 ### Services section
-![Services section](documentation/our-services.png)
+![Services section](documentation/features-img/our-services.png)
 
 ## About Us Page
 
 The About Us Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand and a [our team section](#our-team-section) with 4 cards of the therapists with links to CV Pages. These links contained on the "View profile" button in which there is shadow to create 3D effect.
 
-![About Us Page](documentation/about-us.png)
+![About Us Page](documentation/features-img/about-us.png)
 
 ### Our Team section
-![Our team section](documentation/our-team.png)
+![Our team section](documentation/features-img/our-team.png)
 
 ## CV Pages
 
 The CV Pages contain the bio of each therapist.
 
-![CV page](documentation/cv-page.png)
+![CV page](documentation/features-img/cv-page.png)
 
 ## Services Pages
 The Services Pages consists of an image to the right hand and info of the service.
 
-![Service page](documentation/service-page.png)
+![Service page](documentation/features-img/service-page.png)
 
 ## Contact Us Page
 The Contact Us Page consists of a contact form with the fields : user's first and last name, email address, contact number, a subject, a text area to comment and a submit button in which there is shadow to create 3D effect. All fields are required. When the form is submitted it links to the [Thank you Page](#thank-you-page).
 
-![Conatact Us page](documentation/contact-us.png)
+![Conatact Us page](documentation/features-img/contact-us.png)
 
 ## Thank you Page
 The Thank you Page consists of a message that confirms form's submition and an image of the logo with link to the home page.
 
-![Thank you page](documentation/thank-you.png)
+![Thank you page](documentation/features-img/thank-you.png)
+
+## Error Page
+The error page displays an error message and there is a logo image with link to the home page.
+![404 error page](documentation/features-img/404.png)
+
 # Techonologies Used
 ## Languages Used
 HTML, CSS
