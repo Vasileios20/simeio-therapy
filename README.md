@@ -1,9 +1,9 @@
 # Simeio Therapy
 This project has been developed for the Special Treatments Center "simeio" based in Thessaloniki, Greece. The treatment center aims to inform people, mostly parents, regarding the therapies they apply and encourage parents to seek for help when they discover a problem with their child's speech or movement difficulties. It provides information about the services that the Treatment Center offer, information about the team and a contact form.
 
-![mock up image](documentation/mock-up.png)
+![mock up image](documentation/features-img/mock-up.png)
 
-[View the deployed project here](https://vasileios20.github.io/simeio-therapy/index.html)
+View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-therapy/index.html)
 
 ![GitHub contributors](https://img.shields.io/badge/CONTRIBUTORS-1-<RED>) ![W3C validation](https://img.shields.io/badge/W3C-VALIDATED-<GREEN>)
 
@@ -35,7 +35,7 @@ This project has been developed for the Special Treatments Center "simeio" based
 # Design
 
   * ## Colour Scheme
-  ![Colour palette](documentation/cl-palette.png)
+  ![Colour palette](documentation/features-img/cl-palette.png)
 
   The #5D4E96 and the #4FC4CF were chosen by the owners of the Special Treatments Center.
 
