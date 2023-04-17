@@ -544,6 +544,7 @@ hr {
     margin: 10px 0;
     background-color: rgba(229, 231, 233, 0.7);
     align-items: center;
+    border-radius: 1rem;
 }
 
 .signup-form {
@@ -575,8 +576,8 @@ hr {
 }
 
 .text-input {
-    border-radius: 5px;
-    border: 2px inset #5d3c96;
+    border-radius: 0.5rem;
+    border: 2px solid #5d3c96;
     line-height: 2;
     font-family: Manrope, sans-serif;
     font-size: 100%;
@@ -588,7 +589,7 @@ hr {
 
 .join-button {
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 0.4rem;
     padding: 10px 20px 10px 20px;
     text-align: center;
     font-size: 100%;
