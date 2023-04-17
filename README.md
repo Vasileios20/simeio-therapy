@@ -82,7 +82,7 @@ All pages on the site are responsive and have :
 
 ## Home Page
 
-The Home Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand, a [services section](#services-section) with an image in the between two services, which are in two rows, the first paragraph of each service with link to the service's page.
+The Home Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand and a [services section](#services-section). The services are splitted in two sections where each one contains an image on the side of the text. The first paragraph of each service contains link to the service's page.
 
 ![Home Page](documentation/features-img/home-page.png)
 
@@ -91,7 +91,7 @@ The Home Page consists of an image on the left hand and a paragraph with a short
 
 ## About Us Page
 
-The About Us Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand and a [our team section](#our-team-section) with 4 cards of the therapists with links to CV Pages. These links contained on the "View profile" button in which there is shadow to create 3D effect.
+The About Us Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand and a [our team section](#our-team-section) with 4 cards of the therapists with links to CV Pages. The links contained on the "View profile" button styled with a shadow to create 3D effect.
 
 ![About Us Page](documentation/features-img/about-us.png)
 
