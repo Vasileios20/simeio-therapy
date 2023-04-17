@@ -934,7 +934,7 @@ footer a {
     margin: auto;
     color: #fafafa;
     background-color: rgba(93, 62, 150, 0.5);
-    padding: 0.5rem;
+    min-height: 80vh;
     width: 100%;
 }
 
@@ -944,6 +944,7 @@ footer a {
     justify-content: center;
     text-align: center;
     margin: auto;
+    padding: 1rem;
 }
 
 .error-page h2 {
@@ -956,8 +957,4 @@ footer a {
     font-size: 2rem;
     margin-top: 2rem;
     color: #fafafa;
-}
-
-.error-page-footer {
-    margin: 0;
 }
