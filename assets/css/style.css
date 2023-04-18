@@ -614,10 +614,15 @@ hr {
     margin: 50px auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .sub-form-logo {
     margin: 20px auto;
+}
+
+.sub-form-logo img {
+    max-width: 200px;
 }
 
 /* CV pages*/
