@@ -1,5 +1,6 @@
 # Simeio Therapy
-This project has been developed for the Special Treatments Center "simeio" based in Thessaloniki, Greece. The treatment center aims to inform people, mostly parents, regarding the therapies they apply and encourage parents to seek for help when they discover a problem with their child's speech or movement difficulties. It provides information about the services that the Treatment Center offer, information about the team and a contact form.
+
+This project has been developed for the PP1 of Code Institute and in collabotration with the Special Treatments Center "simeio" based in Thessaloniki, Greece. The treatment center aims to inform people, mostly parents, regarding the therapies they apply and encourage parents to seek for help when they discover any difficulties in their child's speech or movement. It provides information about the services that the Treatment Center offer, information about the team and a contact form.
 
 ![mock up image](documentation/features-img/mock-up.png)
 
@@ -12,6 +13,7 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
 * [Design](#design)
   * [Colour Scheme](#colours-scheme)
   * [Typography](#typography)
+* [User Experience (UX)](#user-experience-ux)  
 * [Features](#features)
   * [Home Page](#home-page)
     * [Services section](#services-section)
@@ -31,6 +33,7 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
     * [How to clone](#how-to-clone)
 * [Testing](#testing)
 * [Credits](#credits)
+  
 
 # Design
 
@@ -60,7 +63,8 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
 
   Font weights used : 400, 500, 600
 
-# Features 
+# Features
+
 The site consists of a home page, an about us page in which there 4 cards with links to cv pages, 4 services pages, a contact page and a thank you page that is shown when the contact form has been submited.
 
 All pages on the site are responsive and have :
@@ -82,20 +86,22 @@ All pages on the site are responsive and have :
 
 ## Home Page
 
-The Home Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand and a [services section](#services-section). The services are splitted in two sections where each one contains an image on the side of the text. The first paragraph of each service contains link to the service's page.
+The Home Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand, a [services section](#services-section) with an image in the between two services, which are in two rows, the first paragraph of each service with link to the service's page.
 
 ![Home Page](documentation/features-img/home-page.png)
 
 ### Services section
+
 ![Services section](documentation/features-img/our-services.png)
 
 ## About Us Page
 
-The About Us Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand and a [our team section](#our-team-section) with 4 cards of the therapists with links to CV Pages. The links contained on the "View profile" button styled with a shadow to create 3D effect.
+The About Us Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand and a [our team section](#our-team-section) with 4 cards of the therapists with links to CV Pages. These links contained on the "View profile" button in which there is shadow to create 3D effect.
 
 ![About Us Page](documentation/features-img/about-us.png)
 
 ### Our Team section
+
 ![Our team section](documentation/features-img/our-team.png)
 
 ## CV Pages
@@ -122,6 +128,16 @@ The Thank you Page consists of a message that confirms form's submition and an i
 ## Error Page
 The error page displays an error message and there is a logo image with link to the home page.
 ![404 error page](documentation/features-img/404.png)
+
+## Future Features
+
+Implement Career Page to inform about and offer graduates internship.
+
+Implement Newsletter.
+
+Add new team members.
+
+Add new services.
 
 # Techonologies Used
 ## Languages Used
