@@ -201,4 +201,6 @@ To clone the repository :
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-# Testing
+# [Testing](TESTING.md)
+
+# Credits
