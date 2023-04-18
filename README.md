@@ -65,8 +65,8 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
 
 # User Experience (UX) 
 
-|| Goal | |
-|--|--|--| 
+|| Goal | 
+|--|--| 
 |Client|A simple and easy to navigate website| 
 ||To encourage people learn about learning disabilities| 
 ||To help people identify signs of learning diasabilities| 
@@ -165,6 +165,7 @@ HTML, CSS
 ## Frameworks, Libraries & Programs Used
 * [GitHub](https://github.com/) - To save and store files for the website.
 * [GitPod](https://gitpod.io/) - IDE used to create the site.
+* [Codeanywhere](https://app.codeanywhere.com/) - IDE used to create the site.
 * [Techsini](https://techsini.com/multi-mockup/index.php) - To show the web image in various devices.
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website
 * [Google Developer Tools](https://developer.chrome.com/docs/) - To test features, resposiveness and stylilng.
@@ -204,3 +205,41 @@ To clone the repository :
 # [Testing](TESTING.md)
 
 # Credits
+
+## Code Used 
+* [Rising Women](https://rising-women.herokuapp.com/mentors/) To create the cards to the About Us Page.
+* [Rising Women](https://rising-women.herokuapp.com/contact/) To create the contact form.
+* [Hamburger Menu](https://codepen.io/alvarotrigo/pen/MWEJEWG) To create the hamburger menu for mobile devices.
+* [Navbar](https://www.youtube.com/watch?v=PwWHL3RyQgk) To create the navbar.
+* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) Flexbox tutorial (CSS).
+* [Flexbox](https://www.youtube.com/watch?v=k32voqQhODc) Flexbox tutorial (CSS).
+
+### README
+
+* [README](https://github.com/kera-cudmore/readme-examples) How to write the README.
+* [README](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md) I followed this guide and all the examples that contains to write the README.
+
+## Content
+All the text content has been provided by [Simeiotherapy.gr](https://simeiotherapy.gr/)
+
+## Media
+Images were dowloaded from [Pexels](https://www.pexels.com/)
+
+* [Home Page](https://www.pexels.com/photo/top-view-of-woman-with-a-child-solving-puzzles-7269500/)
+* [Home Page](https://www.pexels.com/photo/girl-in-gray-dress-and-gray-tights-playing-on-white-rug-with-woman-in-white-sweater-6255544/)
+* [Home Page](https://www.pexels.com/photo/mother-and-son-using-educational-toys-7269592/)
+* [About us Page](https://www.pexels.com/photo/girl-in-red-dress-playing-a-wooden-blocks-3662667/)
+* [Services Pages](https://www.pexels.com/photo/kids-doing-artwork-8535599/)
+
+## Aknowledgments
+My mentor Brian Macharia for guidance, support and feedback during the project.
+
+[Kera Cudmore](https://github.com/kera-cudmore) for feedback and support during the project. Also for providing an excellent guide how to write the README.
+
+[Sawyer Thompson](https://github.com/LaneSawyerT) for guidance and support during the project.
+
+[Humberto Pereira](https://github.com/humberto-pereira) for support and feedback during the project.
+
+Friends and family for support and testing the project on their devices.
+
+A massive thank you to [Simeio Therapy](https://simeiotherapy.gr/) for providing the content and feedback for the project.
