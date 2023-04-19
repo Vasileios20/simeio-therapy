@@ -33,6 +33,11 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
     * [How to clone](#how-to-clone)
 * [Testing](#testing)
 * [Credits](#credits)
+  * [Code Used](#code-used)
+    * [README](#readme)
+  * [Content](#content)
+  * [Media](#media)
+  * [Aknowledgments](#aknowledgments)
   
 
 # Design
@@ -207,6 +212,8 @@ To clone the repository :
 Find a detailed section on [TESTING.md](TESTING.md).
 
 # Credits
+
+Through the development [W3 schools](https://www.w3schools.com/) was consulted for HTML and CSS.
 
 ## Code Used 
 * [Rising Women](https://rising-women.herokuapp.com/mentors/) To create the cards to the About Us Page.
