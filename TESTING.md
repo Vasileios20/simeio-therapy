@@ -15,6 +15,8 @@ The project has been tested in the following browsers Google Chrome, Firefox, Sa
     * [Lighthouse Mobile](#lighthouse-mobile)
   * [WAVE](#wave)
 * [Manual Testing](#manual-testing)
+* [Bugs](#bugs)
+  * [Solved Bugs](#solved-bugs)
 
 W3C Validator have been used to check the HMTL & CSS.
 
@@ -146,3 +148,13 @@ Friends and family has perfomed tests in various mobile devices and reported no 
 |Hamburger menu/Services Dropdown Menu Occupational Therapy button|Redirect to occupational therapy page|Clicked button|Redirected to occupational therapy page|Pass|
 |Hamburger menu/Services Dropdown Menu Parental Counselling button|Redirect to parental counselling page|Clicked button|Redirected to parental counselling page|Pass|
 |Hamburger menu/Services Dropdown Menu Special Education button|Redirect to special education page|Clicked button|Redirected to special education page|Pass|
+
+## BUGS
+
+### Solved Bugs
+
+|#|Bug|Solution|
+|--|--|--|
+|1|When I added the logo image to the cv-cards in about-us.html the image wouldn't load| I had to change the path and remove the forward slash from the link, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/e0edc5ffa3db7f6452bb008ad00376dd9c56b6de)|
+|2|When I was trying to open the dropdown menu in screens 800px and down (in the hamburger menu) it would load the page again instead of just opening the dropdown menu| I had to add the # symbol in the <a href=''>, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/89ffcd6d6ac152ebbe4808cd0ac7c0a65de3b874)|
+|3|When I added the hamburger menu, on the contact.html, it would be shown be hind the contact form|I had to add z-index to header, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/eed889df1895aa4213115369fdbfefcfb53d6c3b)|
