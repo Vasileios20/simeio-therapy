@@ -13,7 +13,8 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
 * [Design](#design)
   * [Colour Scheme](#colours-scheme)
   * [Typography](#typography)
-* [User Experience (UX)](#user-experience-ux)  
+* [User Experience (UX)](#user-experience-ux)
+  * [User Stories](#user-stories) 
 * [Features](#features)
   * [Home Page](#home-page)
     * [Services section](#services-section)
@@ -70,13 +71,15 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
 
 # User Experience (UX) 
 
+* ## User Stories
+
 || Goal | 
 |--|--| 
 |Client|A simple and easy to navigate website| 
-||To encourage people learn about learning disabilities| 
+||To encourage and help people find out more about learning disabilities| 
 ||To help people identify signs of learning diasabilities| 
 |First Time User|I want to learn what services the special treatments center offer| 
-||I want to learn about the therapists experience | 
+||I want to learn about the therapists' experience | 
 ||I want to know where the special treatments center is located | 
 ||I want to navigate easily to the website| 
 ||I want to connect on their social media| 
@@ -85,6 +88,7 @@ View the deployed site [Simeio Therapy](https://vasileios20.github.io/simeio-the
 ||I want to sign up for their newsletter *|
 |Frequent User | I want to find out if there is a new service *|
 ||I want to find out about new members in the team *|
+
 *To be implemented in the future
 
 # Features
@@ -179,6 +183,7 @@ HTML, CSS
 * [Shields IO](https://shields.io/) - To add badges to README.
 * [Coolors](https://coolors.co/) - To create palette image to README.
 * [Font Awesome](https://fontawesome.com/icons) - To create icons
+* [VSCode](https://code.visualstudio.com/) - Code editor used for local development.
 
 # Deployment and Local Development
 ## Deployment
@@ -220,8 +225,8 @@ Through the development [W3 schools](https://www.w3schools.com/) was consulted f
 * [Rising Women](https://rising-women.herokuapp.com/contact/) To create the contact form.
 * [Hamburger Menu](https://codepen.io/alvarotrigo/pen/MWEJEWG) To create the hamburger menu for mobile devices.
 * [Navbar](https://www.youtube.com/watch?v=PwWHL3RyQgk) To create the navbar.
-* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) Flexbox tutorial (CSS).
-* [Flexbox](https://www.youtube.com/watch?v=k32voqQhODc) Flexbox tutorial (CSS).
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) To learn and understand how flexbox works (CSS).
+* [Flexbox tutorial youtube video](https://www.youtube.com/watch?v=k32voqQhODc) To learn and understand how flexbox works (CSS).
 
 ### README
 
@@ -232,13 +237,13 @@ Through the development [W3 schools](https://www.w3schools.com/) was consulted f
 All the text content has been provided by [Simeiotherapy.gr](https://simeiotherapy.gr/)
 
 ## Media
-Images were dowloaded from [Pexels](https://www.pexels.com/)
+Images were dowloaded from [Pexels.com](https://www.pexels.com/)
 
-* [Home Page](https://www.pexels.com/photo/top-view-of-woman-with-a-child-solving-puzzles-7269500/)
-* [Home Page](https://www.pexels.com/photo/girl-in-gray-dress-and-gray-tights-playing-on-white-rug-with-woman-in-white-sweater-6255544/)
-* [Home Page](https://www.pexels.com/photo/mother-and-son-using-educational-toys-7269592/)
-* [About us Page](https://www.pexels.com/photo/girl-in-red-dress-playing-a-wooden-blocks-3662667/)
-* [Services Pages](https://www.pexels.com/photo/kids-doing-artwork-8535599/)
+* [Home Page](https://www.pexels.com/photo/top-view-of-woman-with-a-child-solving-puzzles-7269500/) Photo by Karolina Grabowska
+* [Home Page](https://www.pexels.com/photo/girl-in-gray-dress-and-gray-tights-playing-on-white-rug-with-woman-in-white-sweater-6255544/) Photo by Karolina Grabowska
+* [Home Page](https://www.pexels.com/photo/mother-and-son-using-educational-toys-7269592/) Photo by Karolina Grabowska
+* [About us Page](https://www.pexels.com/photo/girl-in-red-dress-playing-a-wooden-blocks-3662667/) Photo by cottonbro studio
+* [Services Pages](https://www.pexels.com/photo/kids-doing-artwork-8535599/) Photo by Ksenia Chernaya
 
 ## Aknowledgments
 My mentor Brian Macharia for guidance, support and feedback during the project.
