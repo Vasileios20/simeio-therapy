@@ -82,9 +82,9 @@ SEO on all pages is 90-92, that is because to create the hamburger menu I had to
 
 Each page was run through the Web Accessibility Evalulation Tool (WAVE).
 
-The alerts on all pages come from the hamburger menu where I had to add a checkbox input, without an href as on mobile devices wouldn't open the menu. [Borrowed code for the hamburger menu](https://codepen.io/alvarotrigo/pen/MWEJEWG)
+The alerts on all pages shown because on the header the logo image and the home button adjacent links go to the same URL.
 
-On 404 page the alerts come from the text content that the tool (WAVE) considers as headings.
+On 404 page the alerts come, in addition to the one above, from the text content that the tool (WAVE) considers as headings.
 
 * [index.html](documentation/testing/wave/index.png)
 * [about-us.html](documentation/testing/wave/about-us.png)
@@ -133,8 +133,8 @@ Friends and family has perfomed tests in various mobile devices and reported no 
 |Card Elena "view profile" button|Redirect to cv-elena page|Clicked button|Redirected to cv-elena page|Pass|
 |Card Katerina "view profile" button|Redirect to cv-katerina page|Clicked button|Redirected to cv-katerina page|Pass|
 |Contact Us Page(Desktop and Mobile)|
-|Required fields|When submit the form if empty field show message "Please fill out this field"|Submit form with at least one empty field|Message shown|Pass|
-|Email Address Input|When fill out this field accept only email address|Entered non email address and submitted form|Message shown to fill out this field with an email address|Pass|
+|Required fields|When submit the form if there is an empty input field show message "Please fill out this field"|Submit form with at least one empty field|Message shown|Pass|
+|Email Address Input|When fill out this inpuy field accept only email address|Entered non email address and submitted form|Message shown to fill out this input field with an email address|Pass|
 |Submit button|When submit form redirect to thank you page|Form submitted|Redirected to thank you page|Pass|
 |Thank You Page (Desktop and Mobile)|
 |Logo Image button at the center of the screen|Redirect to home page|Clicked button|Redirected to home page|Pass|
@@ -148,6 +148,11 @@ Friends and family has perfomed tests in various mobile devices and reported no 
 |Hamburger menu/Services Dropdown Menu Occupational Therapy button|Redirect to occupational therapy page|Clicked button|Redirected to occupational therapy page|Pass|
 |Hamburger menu/Services Dropdown Menu Parental Counselling button|Redirect to parental counselling page|Clicked button|Redirected to parental counselling page|Pass|
 |Hamburger menu/Services Dropdown Menu Special Education button|Redirect to special education page|Clicked button|Redirected to special education page|Pass|
+|Footer (Desktop and Mobile, test on all pages)|
+|Social media buttons|Open in a new tab| Clicked button|Opened in a new tab|PASS|
+|Contact us button|Redirect to contact page| Clicked button|Redirected to contact page|PASS|
+|Pinpoint map|Open map in a new tab| Clicked button|Opened map in a new tab|PASS|
+|Copyright link button|Open link in a new tab| Clicked button|Opened in a new tab|PASS|
 
 ## BUGS
 
@@ -156,5 +161,5 @@ Friends and family has perfomed tests in various mobile devices and reported no 
 |#|Bug|Solution|
 |--|--|--|
 |1|When I added the logo image to the cv-cards in about-us.html the image wouldn't load| I had to change the path and remove the forward slash from the link, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/e0edc5ffa3db7f6452bb008ad00376dd9c56b6de)|
-|2|When I was trying to open the dropdown menu in screens 800px and down (in the hamburger menu) it would load the page again instead of just opening the dropdown menu| I had to add the # symbol to the href attribute for the services button on the navbar, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/89ffcd6d6ac152ebbe4808cd0ac7c0a65de3b874)|
-|3|When I added the hamburger menu, on the contact.html, it would be shown be hind the contact form|I had to add z-index to header, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/eed889df1895aa4213115369fdbfefcfb53d6c3b), thank you [Kera](https://github.com/kera-cudmore) for guidance|
+|2|When I was trying to open the dropdown menu in screens 800px and down (in the hamburger menu) it would load the page again instead of only opening the dropdown menu| I had to add the # symbol to the href attribute for the services button on the navbar, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/89ffcd6d6ac152ebbe4808cd0ac7c0a65de3b874)|
+|3|When I added the hamburger menu, on the contact.html, the menu was shown behind the contact form|I had to add z-index to header, see [commit](https://github.com/Vasileios20/simeio-therapy/commit/eed889df1895aa4213115369fdbfefcfb53d6c3b). Thank you [Kera](https://github.com/kera-cudmore) for guidance|
