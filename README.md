@@ -197,6 +197,8 @@ To deploy the site to GitHub Pages :
 5. From the dropdown menu at source select the main branch and press save.
 6. The site has been deployed. Check at the top of the page, it might take a couple of minutes.
 
+Any code pushed to main branch will automatically go live/update in the deployed site.
+
 ## Local Development
 ### How to fork
 To fork the repository :
@@ -211,6 +213,13 @@ To clone the repository :
 3. Click on the code button, select one of the HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+For any changes made to the code:
+1. git add [file]
+2. git commit -m "[descriptive message]"
+3. git push
+
+Any code pushed to main branch will automatically go live/update in the deployed site.
 
 # Testing
 
