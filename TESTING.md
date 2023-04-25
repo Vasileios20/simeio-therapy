@@ -8,13 +8,11 @@ The project has been tested in the following browsers Google Chrome, Firefox, Sa
 
 # Contents 
 
-* [Automated Testing](#automated-testing)
-  * [W3C Validator](#w3c-validator)
-  * [Lighthouse](#lighthouse)
-    * [Lighthouse Desktop](#lighthouse-desktop)
-    * [Lighthouse Mobile](#lighthouse-mobile)
-  * [WAVE](#wave)
-* [Manual Testing](#manual-testing)
+* [W3C Validator](#w3c-validator)
+* [Lighthouse](#lighthouse)
+  * [Lighthouse Desktop](#lighthouse-desktop)
+  * [Lighthouse Mobile](#lighthouse-mobile)
+* [WAVE](#wave)
 * [Bugs](#bugs)
   * [Solved Bugs](#solved-bugs)
 
@@ -24,8 +22,8 @@ Google Developer tools have been used through the developement of the project to
 
 WAVE have been used to test the accessibility of the site.
 
-## Automated Testing
-### W3C Validator
+
+## W3C Validator
 
 * [index.html](documentation/testing/w3c/w3c-index.png)
 * [about-us.html](documentation/tessting/w3c/w3c-about-us.png)
@@ -42,13 +40,13 @@ WAVE have been used to test the accessibility of the site.
 * [404.html](documentation/testing/w3c/w3-404.png)
 * [style.css](documentation/testing/w3c/w3c-style.png)
 
-### Lighthouse 
+## Lighthouse 
 
 Lighthouse, within the Chrome Developer Tools, have been used to test the performance, accessibility, best practices and SEO of the website both on desktop and mobile.
 
 SEO on all pages is 90-92, that is because to create the hamburger menu I had to add a checkbox input, without an href as on mobile devices wouldn't open the menu. [Borrowed code for the hamburger menu](https://codepen.io/alvarotrigo/pen/MWEJEWG)
 
-#### Lighthouse Desktop
+### Lighthouse Desktop
 * [index.html](documentation/testing/lighthouse/index.png)
 * [about-us.html](documentation/testing/lighthouse/about-us.png)
 * [cv-maria.html](documentation/testing/lighthouse/cv-maria.png)
@@ -62,7 +60,7 @@ SEO on all pages is 90-92, that is because to create the hamburger menu I had to
 * [contact.html](documentation/testing/lighthouse/contact.png)
 * [thank-you.html](documentation/testing/lighthouse/thank-you.png)
 
-#### Lighthouse Mobile
+### Lighthouse Mobile
 
 * [index.html](documentation/testing/lighthouse/index-mobile.png)
 * [about-us.html](documentation/testing/lighthouse/about-us-mobile.png)
@@ -78,7 +76,7 @@ SEO on all pages is 90-92, that is because to create the hamburger menu I had to
 * [thank-you.html](documentation/testing/lighthouse/thank-you-mobile.png)
 
 
-### WAVE
+## WAVE
 
 Each page was run through the Web Accessibility Evalulation Tool (WAVE).
 
@@ -100,11 +98,10 @@ On 404 page the alerts come, in addition to the one above, from the text content
 * [thank-you.html](documentation/testing/wave/thank-you.png)
 * [404.html](documentation/testing/wave/404.png)
 
-## Manual Testing
 
 Testing was performed on the following devices :
 
-OnePlus 8T, OnePlus Nord 2, Toshiba Portege Z30 13.3", Desktop PC Windows, Samsung SmartTV 4K.
+OnePlus 8T, OnePlus Nord 2, Toshiba Portege Z30 13.3", Desktop PC (Windows 10/Linux Ubuntu 22.04), Samsung SmartTV 4K.
 
 One of the owners of Special Treatments Center "simeio" tested on iPad 4, iPhone 11, Mac mini 1.
 
