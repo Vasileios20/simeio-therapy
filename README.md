@@ -114,7 +114,7 @@ All pages on the site are responsive and have :
 
 ## Home Page
 
-The Home Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand, a [services section](#services-section) with an image in the between two services, which are in two rows, the first paragraph of each service with link to the service's page.
+The Home Page consists of an image on the left hand and a paragraph with a short story of the therapists on the right hand, a [services section](#services-section) with an image on the side of each two services sections (one left-hand and one right hand). The first paragraph of each service contains a link to the service's page.
 
 ![Home Page](documentation/features-img/home-page.png)
 
@@ -146,7 +146,7 @@ The Services Pages consists of an image to the right hand and info of the servic
 ## Contact Us Page
 The Contact Us Page consists of a contact form with the fields : user's first and last name, email address, contact number, a subject, a text area to comment and a submit button in which there is shadow to create 3D effect. All fields are required. When the form is submitted it links to the [Thank you Page](#thank-you-page).
 
-![Conatact Us page](documentation/features-img/contact-us.png)
+![Contact Us page](documentation/features-img/contact-us.png)
 
 ## Thank you Page
 The Thank you Page consists of a message that confirms form's submition and an image of the logo with link to the home page.
@@ -248,7 +248,7 @@ Images were dowloaded from [Pexels.com](https://www.pexels.com/)
 ## Aknowledgments
 My mentor Brian Macharia for guidance, support and feedback during the project.
 
-[Kera Cudmore](https://github.com/kera-cudmore) for feedback and support during the project. Also for providing an excellent guide how to write the README.
+[Kera Cudmore](https://github.com/kera-cudmore) for feedback and support during the project. Also for providing an excellent guide of how to write the README.
 
 [Sawyer Thompson](https://github.com/LaneSawyerT) for guidance and support during the project.
 
