@@ -569,6 +569,7 @@ hr {
 .form-control input {
     flex: 1;
     font-size: 100%;
+    padding: 2px 8px;
 }
 
 .form-control label {
@@ -581,6 +582,7 @@ hr {
     line-height: 2;
     font-family: Manrope, sans-serif;
     font-size: 100%;
+    padding: 0 8px;
 }
 
 .signup-form div {
