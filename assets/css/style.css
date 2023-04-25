@@ -54,7 +54,7 @@ header {
     margin: 10px 0 0 10px;
 }
 
-/* Navbar / Code was borrowed from https://codepen.io/alvarotrigo/pen/MWEJEWG */
+/* Navbar / Code for hamburger menu was borrowed from https://codepen.io/alvarotrigo/pen/MWEJEWG */
 
 .menu li a {
     color: #5d3c96;
@@ -299,7 +299,7 @@ hr {
     width: 100%;
 }
 
-/* services */
+/* Services/Home page */
 
 .services-container-1 {
     display: flex;
@@ -516,7 +516,7 @@ hr {
     margin-right: auto;
 }
 
-/* form*/
+/* Form, code borrowed and edited from https://rising-women.herokuapp.com/contact/ */
 
 .form-container-outer {
     width: 100%;
